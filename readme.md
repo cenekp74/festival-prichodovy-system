@@ -11,3 +11,7 @@ Prichodovy system na GEKOM filmovy festival
 ## Search
 - vyhledavani musi odlisne zobrazovat vysledky pro prohlizeni (pro ucitele) a pro editovani (v jednom musi byt odkaz na absenci studenta a ve druhem na editovani studenta)
 - proto jsou v routs 2 fce na vyhledavani a obe pouzivaji stejny zaklad z utils.py
+## Write
+- samotne zapisovani prichodu jsem pojmenoval jednoduse write
+- htmx posila post request fci write v routs.py
+- ctecka rfid cipu funguje tak, ze se tvari jako klavesnice a proste zada 10 cislic a pak enter

@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <input type="text" class="rfid-input" placeholder="" name="rfid" hx-post="{{ url_for('write') }}" hx-target="#write-result">
+    <input type="text" class="rfid-input" placeholder="" name="rfid" hx-post="{{ url_for('write') }}" hx-target="#write-result" hx-trigger="keyup changed delay:200ms" hx-on::after-request="this.value=''">
     <div id="write-result">
 </body>
 </html>

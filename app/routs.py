@@ -30,12 +30,12 @@ def edit_class(class_name):
 def edit_student(student_id):
     if not student_id.isdigit(): abort(500)
     student = Student.query.get(student_id)
-    if not student: abort(500)
+    if not student: abort(404)
     if request.method == 'POST':
         rfid = request.form["rfid"]
-        if rfid:
-            student.rfid = rfid
-            db.session.commit()
+        student.rfid = rfid
+        db.session.commit()
+    # v templatu edit_student.html zobrazuju i tridu studenta, proto musim queryinout vsechny zaky z dane tridy
     class_name = class_name_from_code(student.code)
     class_students = [student_ for student_ in Student.query.all() if class_name_from_code(student_.code) == class_name] # vsichni zaci z tridy daneho zaka
     return render_template('edit/edit_student.html', student=student, class_name=class_name, classes=CLASSES, students=class_students)

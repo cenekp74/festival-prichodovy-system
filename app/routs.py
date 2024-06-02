@@ -94,7 +94,7 @@ def view_class():
         ).first() # tohle vytahne z databaze prichod studenta v dany den pokud existuje
         if not prichod: prichody[student.id] = "---"
         else: prichody[student.id] = prichod.dt.time().strftime("%H:%M")
-    return render_template('view/view_class.html', classes=CLASSES, students=students, prichody=prichody, date=date)
+    return render_template('view/view_class.html', classes=CLASSES, students=students, prichody=prichody, date=date, class_name=class_name)
 #endregion view
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!

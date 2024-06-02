@@ -20,4 +20,8 @@
         {% endfor %}
     </table>    
 </div>
+<script>
+    document.getElementById("radio_{{ class_name }}").checked = true;
+    document.querySelector('input[type="date"]').value = "{{ date }}";
+</script>
 {% endblock %}

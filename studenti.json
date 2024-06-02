@@ -1,0 +1,3402 @@
+[
+    {
+        "kod": 238101,
+        "cip": "0009781990",
+        "jmeno": "Magdaléna",
+        "prijmeni": "Bílková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238102,
+        "cip": "0230549336",
+        "jmeno": "Klára",
+        "prijmeni": "Blažková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238103,
+        "cip": "0001775851",
+        "jmeno": "Ariana",
+        "prijmeni": "Drábková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238104,
+        "cip": "0317262333",
+        "jmeno": "Riki",
+        "prijmeni": "Furuya",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238105,
+        "cip": "0015145043",
+        "jmeno": "Ondřej",
+        "prijmeni": "Grössl",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238106,
+        "cip": "0241297094",
+        "jmeno": "Josef",
+        "prijmeni": "Hanzlík",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238107,
+        "cip": "0295436970",
+        "jmeno": "Eliška",
+        "prijmeni": "Hradečná",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238108,
+        "cip": "0241300784",
+        "jmeno": "Lada",
+        "prijmeni": "Chumová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238109,
+        "cip": "0001806113",
+        "jmeno": "Tomáš",
+        "prijmeni": "Janovský",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238110,
+        "cip": "0303981009",
+        "jmeno": "Bohdan",
+        "prijmeni": "Korolenko",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238111,
+        "cip": "0241311975",
+        "jmeno": "Juliána",
+        "prijmeni": "Kosťukevič",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238112,
+        "cip": "0015141389",
+        "jmeno": "Nela",
+        "prijmeni": "Kračmarová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238113,
+        "cip": "0241304836",
+        "jmeno": "Ina",
+        "prijmeni": "Lanzendörferová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238114,
+        "cip": "0241308155",
+        "jmeno": "Tobiáš",
+        "prijmeni": "Lažanský",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238115,
+        "cip": "0241306137",
+        "jmeno": "Lucie",
+        "prijmeni": "Luňáčková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238116,
+        "cip": "0241298155",
+        "jmeno": "David",
+        "prijmeni": "Moshővel",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238117,
+        "cip": "0009784263",
+        "jmeno": "Patrik",
+        "prijmeni": "Munitič",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238118,
+        "cip": "0006494667",
+        "jmeno": "Martin Leopold",
+        "prijmeni": "Renner",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238119,
+        "cip": "0001816318",
+        "jmeno": "Anna",
+        "prijmeni": "Severýnová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238120,
+        "cip": "0273622129",
+        "jmeno": "Daria",
+        "prijmeni": "Simonova",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238121,
+        "cip": "0001818578",
+        "jmeno": "Kateřina",
+        "prijmeni": "Soldátová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238122,
+        "cip": "0015070643",
+        "jmeno": "Alžběta",
+        "prijmeni": "Sopková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238123,
+        "cip": "0002476226",
+        "jmeno": "Fylypp",
+        "prijmeni": "Starodubtsev",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238124,
+        "cip": "0008314333",
+        "jmeno": "Dan",
+        "prijmeni": "Sumerauer",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238125,
+        "cip": "0241309244",
+        "jmeno": "Eliška",
+        "prijmeni": "Šindelářová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238126,
+        "cip": "0303981307",
+        "jmeno": "Martina",
+        "prijmeni": "Šťastná",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238127,
+        "cip": "0015116083",
+        "jmeno": "Natálie",
+        "prijmeni": "Šteflová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238128,
+        "cip": "0241302837",
+        "jmeno": "Karel",
+        "prijmeni": "Tonika",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238129,
+        "cip": "0317254054",
+        "jmeno": "David",
+        "prijmeni": "Weisgärber",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 238130,
+        "cip": "0241298941",
+        "jmeno": "Štěpán",
+        "prijmeni": "Zemánek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 234101,
+        "cip": "0015143183",
+        "jmeno": "Nela",
+        "prijmeni": "Al-Otri",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234102,
+        "cip": "0001808922",
+        "jmeno": "Karolína",
+        "prijmeni": "Anfilova",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234103,
+        "cip": "0004615779",
+        "jmeno": "Štěpán",
+        "prijmeni": "Bartoš",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234104,
+        "cip": "0001768875",
+        "jmeno": "Mikuláš",
+        "prijmeni": "Bartošek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234105,
+        "cip": "0007614897",
+        "jmeno": "Jonáš",
+        "prijmeni": "Bezpalec",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234106,
+        "cip": "0083563233",
+        "jmeno": "Markéta",
+        "prijmeni": "Boukalová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234107,
+        "cip": "0001227657",
+        "jmeno": "Alžběta",
+        "prijmeni": "Dědková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234108,
+        "cip": "0001775405",
+        "jmeno": "Egor",
+        "prijmeni": "Dubrovskii",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234109,
+        "cip": "0004324476",
+        "jmeno": "Ella",
+        "prijmeni": "Havlišová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234110,
+        "cip": "0001840587",
+        "jmeno": "Jeroným",
+        "prijmeni": "Horyna",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234111,
+        "cip": "0001819272",
+        "jmeno": "Anna",
+        "prijmeni": "Hovořáková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234112,
+        "cip": "0015088369",
+        "jmeno": "Matyáš",
+        "prijmeni": "Janda",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234113,
+        "cip": "0015059361",
+        "jmeno": "Samuel",
+        "prijmeni": "Jirák",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234114,
+        "cip": "0001781377",
+        "jmeno": "Josef",
+        "prijmeni": "Kraus",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234115,
+        "cip": "0001773447",
+        "jmeno": "Tri",
+        "prijmeni": "Le Duc",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234116,
+        "cip": "0015200504",
+        "jmeno": "Kryštof",
+        "prijmeni": "Liška",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234117,
+        "cip": "0015063184",
+        "jmeno": "Nhi Veronika",
+        "prijmeni": "Luongová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234118,
+        "cip": "0001778023",
+        "jmeno": "Tobiáš",
+        "prijmeni": "Maruniak",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234119,
+        "cip": "0015062574",
+        "jmeno": "Kateřina",
+        "prijmeni": "Novotná",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234120,
+        "cip": "0008271644",
+        "jmeno": "Nela",
+        "prijmeni": "Pírková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234122,
+        "cip": "0007383339",
+        "jmeno": "Daniel",
+        "prijmeni": "Polák",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234123,
+        "cip": "0001833241",
+        "jmeno": "Vanessa",
+        "prijmeni": "Praženicová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234124,
+        "cip": "0001776707",
+        "jmeno": "Ema",
+        "prijmeni": "Přibylová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234125,
+        "cip": "0007397248",
+        "jmeno": "Andrea",
+        "prijmeni": "Pšurná",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234132,
+        "cip": "0015155127",
+        "jmeno": "Tomáš",
+        "prijmeni": "Sháněl",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234126,
+        "cip": "0001779167",
+        "jmeno": "Matěj",
+        "prijmeni": "Soldát",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234127,
+        "cip": "0207598914",
+        "jmeno": "Jelizaveta",
+        "prijmeni": "Tafijčuková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234128,
+        "cip": "0001842294",
+        "jmeno": "Lukáš",
+        "prijmeni": "Ungr",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234129,
+        "cip": "0001769843",
+        "jmeno": "Sofie",
+        "prijmeni": "Váchová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234130,
+        "cip": "0015186370",
+        "jmeno": "Filip",
+        "prijmeni": "Vobořil",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 234131,
+        "cip": "0014032064",
+        "jmeno": "Mariia",
+        "prijmeni": "Zakharova",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.B"
+    },
+    {
+        "kod": 228101,
+        "cip": "0013655026",
+        "jmeno": "Magdalena",
+        "prijmeni": "Fialová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228102,
+        "cip": "0280491024",
+        "jmeno": "Ema",
+        "prijmeni": "Foučková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228103,
+        "cip": "0273336325",
+        "jmeno": "Kateřina",
+        "prijmeni": "Friedbergerová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228104,
+        "cip": "0013583357",
+        "jmeno": "Marta",
+        "prijmeni": "Glombová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228105,
+        "cip": "0008761650",
+        "jmeno": "Tereza",
+        "prijmeni": "Jelínková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228106,
+        "cip": "0012953906",
+        "jmeno": "Frederik",
+        "prijmeni": "Jungwiert",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228107,
+        "cip": "0008758146",
+        "jmeno": "Magdaléna",
+        "prijmeni": "Kadlecová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228108,
+        "cip": "0008715900",
+        "jmeno": "Anastázie",
+        "prijmeni": "Köhlerová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228109,
+        "cip": "0013427374",
+        "jmeno": "Filip",
+        "prijmeni": "Kolář",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228110,
+        "cip": "0013463534",
+        "jmeno": "Kristýna",
+        "prijmeni": "Krajíčková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228111,
+        "cip": "0008746516",
+        "jmeno": "Lucie",
+        "prijmeni": "Kryšpínová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228112,
+        "cip": "0013655385",
+        "jmeno": "David",
+        "prijmeni": "Kuba",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228113,
+        "cip": "0008725784",
+        "jmeno": "Linda",
+        "prijmeni": "Kybicová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228114,
+        "cip": "0013449435",
+        "jmeno": "Adam",
+        "prijmeni": "Němeček",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228115,
+        "cip": "0008711468",
+        "jmeno": "Tomáš",
+        "prijmeni": "Otáhalík",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228116,
+        "cip": "0008731534",
+        "jmeno": "Daniel",
+        "prijmeni": "Pavlíček",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228117,
+        "cip": "0013452326",
+        "jmeno": "Karel",
+        "prijmeni": "Sádlík",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228118,
+        "cip": "0008750874",
+        "jmeno": "Nora",
+        "prijmeni": "Scharingerová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228119,
+        "cip": "0006564210",
+        "jmeno": "Laura",
+        "prijmeni": "Siebertová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228120,
+        "cip": "0013657520",
+        "jmeno": "Jan",
+        "prijmeni": "Šána",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228121,
+        "cip": "0013437052",
+        "jmeno": "Ema",
+        "prijmeni": "Tomanová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228122,
+        "cip": "0013626979",
+        "jmeno": "Tomáš",
+        "prijmeni": "Tvaroha",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228123,
+        "cip": "0013467884",
+        "jmeno": "Liliana",
+        "prijmeni": "Valúchová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228124,
+        "cip": "0013638900",
+        "jmeno": "Tomáš",
+        "prijmeni": "Veselka",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228125,
+        "cip": "0008758745",
+        "jmeno": "Anna",
+        "prijmeni": "Vodičková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228126,
+        "cip": "0009756247",
+        "jmeno": "Jiří",
+        "prijmeni": "Vyoral",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228127,
+        "cip": "0013483995",
+        "jmeno": "Háta",
+        "prijmeni": "Zachová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228128,
+        "cip": "0008770000",
+        "jmeno": "Kilián",
+        "prijmeni": "Zatloukal",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228129,
+        "cip": "0083553393",
+        "jmeno": "Lucie",
+        "prijmeni": "Zelingerová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 228130,
+        "cip": "0296772472",
+        "jmeno": "Prokop",
+        "prijmeni": "Zýka",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224101,
+        "cip": "0007013446",
+        "jmeno": "Edita",
+        "prijmeni": "Babayan",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224137,
+        "cip": "0005032486",
+        "jmeno": "Matyáš",
+        "prijmeni": "Borek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224103,
+        "cip": "0013470914",
+        "jmeno": "Jan",
+        "prijmeni": "Brábek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224104,
+        "cip": "0013467698",
+        "jmeno": "Ilona",
+        "prijmeni": "Bursíková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224106,
+        "cip": "0012957643",
+        "jmeno": "Prokop",
+        "prijmeni": "Cihlář",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224108,
+        "cip": "0013656447",
+        "jmeno": "Anna",
+        "prijmeni": "Havlíčková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224109,
+        "cip": "0207279271",
+        "jmeno": "Lukáš",
+        "prijmeni": "Hons",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224124,
+        "cip": "0008741522",
+        "jmeno": "Nikol",
+        "prijmeni": "Kasperová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224132,
+        "cip": "0007314659",
+        "jmeno": "Martina",
+        "prijmeni": "Krulišová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224112,
+        "cip": "0012949527",
+        "jmeno": "Adéla",
+        "prijmeni": "Krybusová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224138,
+        "cip": "0007456410",
+        "jmeno": "Jakub",
+        "prijmeni": "Lindauer",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224113,
+        "cip": "0261511581",
+        "jmeno": "Olena",
+        "prijmeni": "Markitan",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224114,
+        "cip": "0012957066",
+        "jmeno": "Tomáš",
+        "prijmeni": "Medek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224115,
+        "cip": "0008693575",
+        "jmeno": "Aneta",
+        "prijmeni": "Michálková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224136,
+        "cip": "0001776056",
+        "jmeno": "Katarína",
+        "prijmeni": "Mrázová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224117,
+        "cip": "0008708751",
+        "jmeno": "Adam",
+        "prijmeni": "Povolný",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224118,
+        "cip": "0013452840",
+        "jmeno": "Adam",
+        "prijmeni": "Radkovský",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224131,
+        "cip": "0013451605",
+        "jmeno": "Prokop",
+        "prijmeni": "Rubiš",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224121,
+        "cip": "0296825514",
+        "jmeno": "Jakub",
+        "prijmeni": "Sixta",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224139,
+        "cip": "0012198674",
+        "jmeno": "Yevheniia",
+        "prijmeni": "Slava",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224122,
+        "cip": "0008747725",
+        "jmeno": "Vojtěch",
+        "prijmeni": "Soukup",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224123,
+        "cip": "0008713498",
+        "jmeno": "Adam",
+        "prijmeni": "Stejskal",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224127,
+        "cip": "0241306514",
+        "jmeno": "Tetiana",
+        "prijmeni": "Stetsiura",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224125,
+        "cip": "0013613278",
+        "jmeno": "Igor",
+        "prijmeni": "Ševčík",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224126,
+        "cip": "0013551633",
+        "jmeno": "Zuzka",
+        "prijmeni": "Ševčíková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224140,
+        "cip": "0002947038",
+        "jmeno": "Laura Marie",
+        "prijmeni": "Thiebaut",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224134,
+        "cip": "0015073486",
+        "jmeno": "Nikol",
+        "prijmeni": "Vanderková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224129,
+        "cip": "0013659066",
+        "jmeno": "Vojtěch",
+        "prijmeni": "Vyskočil",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 224133,
+        "cip": "0001777366",
+        "jmeno": "Viktorie",
+        "prijmeni": "Weissová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v II."
+    },
+    {
+        "kod": 218101,
+        "cip": "0005315329",
+        "jmeno": "Anna",
+        "prijmeni": "Benešová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218102,
+        "cip": "0009926940",
+        "jmeno": "Ema",
+        "prijmeni": "Bízová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218103,
+        "cip": "0009790439",
+        "jmeno": "Berenika",
+        "prijmeni": "Drábková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218104,
+        "cip": "0007968916",
+        "jmeno": "Marek",
+        "prijmeni": "Haľak",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218105,
+        "cip": "0003964003",
+        "jmeno": "Lukáš",
+        "prijmeni": "Hanzlíček",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218106,
+        "cip": "0005295368",
+        "jmeno": "Josef",
+        "prijmeni": "Herink",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218107,
+        "cip": "0005259909",
+        "jmeno": "Richard",
+        "prijmeni": "Hodan",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218108,
+        "cip": "0005294236",
+        "jmeno": "Vít",
+        "prijmeni": "Hoplíček",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218109,
+        "cip": "0005312634",
+        "jmeno": "Veronika",
+        "prijmeni": "Hušáková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218110,
+        "cip": "0009796932",
+        "jmeno": "Michael",
+        "prijmeni": "Kejkula",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218111,
+        "cip": "0009785044",
+        "jmeno": "Adam",
+        "prijmeni": "Kučera",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218112,
+        "cip": "0009915804",
+        "jmeno": "Zuzana",
+        "prijmeni": "Kučerová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218113,
+        "cip": "0009747547",
+        "jmeno": "Filip",
+        "prijmeni": "Lorenz",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218114,
+        "cip": "0009916759",
+        "jmeno": "Evelína",
+        "prijmeni": "Mašindová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218115,
+        "cip": "0009780869",
+        "jmeno": "Laura",
+        "prijmeni": "Maštalířová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218116,
+        "cip": "0009964293",
+        "jmeno": "Veronika",
+        "prijmeni": "Mlíchová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218117,
+        "cip": "0015181807",
+        "jmeno": "Jan",
+        "prijmeni": "Neškudla",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218118,
+        "cip": "0009760288",
+        "jmeno": "Barbora",
+        "prijmeni": "Netrdová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218119,
+        "cip": "0280491181",
+        "jmeno": "Vojtěch",
+        "prijmeni": "Neužil",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218120,
+        "cip": "0303981031",
+        "jmeno": "Tobiáš",
+        "prijmeni": "Pačes",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218121,
+        "cip": "0280491195",
+        "jmeno": "Kryštof",
+        "prijmeni": "Pešek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218122,
+        "cip": "0280670477",
+        "jmeno": "Helena",
+        "prijmeni": "Procházková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218123,
+        "cip": "0280491066",
+        "jmeno": "Karolína",
+        "prijmeni": "Psottová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218124,
+        "cip": "0273617568",
+        "jmeno": "Antonín",
+        "prijmeni": "Ptáček",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218125,
+        "cip": "0241297195",
+        "jmeno": "Jakub",
+        "prijmeni": "Sochor",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218126,
+        "cip": "0280670021",
+        "jmeno": "Anna",
+        "prijmeni": "Sumerauerová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218127,
+        "cip": "0280491165",
+        "jmeno": "Hana",
+        "prijmeni": "Sůvová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218129,
+        "cip": "0241300972",
+        "jmeno": "Jan",
+        "prijmeni": "Tomčík",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218131,
+        "cip": "0079651384",
+        "jmeno": "Oleksandr",
+        "prijmeni": "Tomyshynets",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 218130,
+        "cip": "0280669696",
+        "jmeno": "Jakub",
+        "prijmeni": "Žlebek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v I."
+    },
+    {
+        "kod": 214101,
+        "cip": "0273609528",
+        "jmeno": "Matyáš",
+        "prijmeni": "Bareš",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214102,
+        "cip": "0009781358",
+        "jmeno": "Vendula",
+        "prijmeni": "Bradáčová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214103,
+        "cip": "0009788765",
+        "jmeno": "Jakub",
+        "prijmeni": "Fogl",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214104,
+        "cip": "0009740779",
+        "jmeno": "Tomáš",
+        "prijmeni": "Horčík",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214133,
+        "cip": "0015158945",
+        "jmeno": "Kateřina",
+        "prijmeni": "Horešovská",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214105,
+        "cip": "0009786612",
+        "jmeno": "Matěj",
+        "prijmeni": "Chodura",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214106,
+        "cip": "0009922808",
+        "jmeno": "Lucie",
+        "prijmeni": "Ježková",
+        "message": "Synchronizované skákání",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214107,
+        "cip": "0009740839",
+        "jmeno": "Zuzana",
+        "prijmeni": "Jiráňová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214108,
+        "cip": "0005256260",
+        "jmeno": "Stella",
+        "prijmeni": "Koblížková",
+        "message": "&#127849;",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214109,
+        "cip": "0009735801",
+        "jmeno": "Eliška",
+        "prijmeni": "Kubalová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214110,
+        "cip": "0005278450",
+        "jmeno": "Duc Thang",
+        "prijmeni": "Le",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214111,
+        "cip": "0009763496",
+        "jmeno": "Minh Chau",
+        "prijmeni": "Le",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214112,
+        "cip": "0009762700",
+        "jmeno": "Tereza",
+        "prijmeni": "Mandíková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214113,
+        "cip": "0009791473",
+        "jmeno": "Ema",
+        "prijmeni": "Mařáková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214131,
+        "cip": "0015146483",
+        "jmeno": "Michael",
+        "prijmeni": "Morávek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214114,
+        "cip": "0009736768",
+        "jmeno": "Kristýna",
+        "prijmeni": "Naňková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214115,
+        "cip": "0009774673",
+        "jmeno": "Václav",
+        "prijmeni": "Naxera",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214116,
+        "cip": "0009756045",
+        "jmeno": "Anežka",
+        "prijmeni": "Nenadálová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214117,
+        "cip": "0009761503",
+        "jmeno": "David",
+        "prijmeni": "Opava",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214118,
+        "cip": "0009753171",
+        "jmeno": "Šimon",
+        "prijmeni": "Pacourek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214119,
+        "cip": "0009727426",
+        "jmeno": "Sofija",
+        "prijmeni": "Panova Ivanova",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214120,
+        "cip": "0275349546",
+        "jmeno": "Jolana Sofie",
+        "prijmeni": "Půlpánová",
+        "message": "Zelená a fialová není barevná kombinace",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214121,
+        "cip": "0009777450",
+        "jmeno": "Eliška",
+        "prijmeni": "Sokolová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214122,
+        "cip": 777,
+        "jmeno": "Jáchym",
+        "prijmeni": "Stachura",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214123,
+        "cip": "0009747449",
+        "jmeno": "Lucie",
+        "prijmeni": "Šárová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214124,
+        "cip": "0005262991",
+        "jmeno": "Vojtěch",
+        "prijmeni": "Škrobánek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214125,
+        "cip": 666,
+        "jmeno": "Anna",
+        "prijmeni": "Švecová",
+        "message": "Děvka pro všechny",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214126,
+        "cip": "0001333450",
+        "jmeno": "Izabela",
+        "prijmeni": "Trpišovská",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214127,
+        "cip": "0007266593",
+        "jmeno": "Jan",
+        "prijmeni": "Tůma",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214128,
+        "cip": "0009775855",
+        "jmeno": "Eliška",
+        "prijmeni": "Vlašicová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214129,
+        "cip": "0280653736",
+        "jmeno": "Filip",
+        "prijmeni": "Zapletal",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214130,
+        "cip": "0009783844",
+        "jmeno": "Emma",
+        "prijmeni": "Zapletalová",
+        "message": "Ahoj Emmzáku! &#10084;",
+        "prvniPromitaciTrida": "První film máš v 3.B"
+    },
+    {
+        "kod": 214201,
+        "cip": "0011210854",
+        "jmeno": "Anna",
+        "prijmeni": "Balcarová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214202,
+        "cip": "0005329241",
+        "jmeno": "Filip",
+        "prijmeni": "Brynda",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214203,
+        "cip": "0261431412",
+        "jmeno": "Nicol",
+        "prijmeni": "Compelová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214204,
+        "cip": "0273617384",
+        "jmeno": "Martin",
+        "prijmeni": "Čihák",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214205,
+        "cip": "0236063620",
+        "jmeno": "Jáchym",
+        "prijmeni": "Flachs",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214231,
+        "cip": "0241302861",
+        "jmeno": "Adéla",
+        "prijmeni": "Frýdlová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214206,
+        "cip": "0003937883",
+        "jmeno": "Veronika",
+        "prijmeni": "Hamáčková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214207,
+        "cip": "0081514509",
+        "jmeno": "Alžběta",
+        "prijmeni": "Hányšová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214208,
+        "cip": "0009909244",
+        "jmeno": "Rozálie",
+        "prijmeni": "Heppnerová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214232,
+        "cip": "0251087984",
+        "jmeno": "Nazarii",
+        "prijmeni": "Horbatenko",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214210,
+        "cip": "0273670246",
+        "jmeno": "Kristýna",
+        "prijmeni": "Hrušková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214211,
+        "cip": "0241301138",
+        "jmeno": "Hedvika",
+        "prijmeni": "Hučínová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214212,
+        "cip": "0261512150",
+        "jmeno": "Petra",
+        "prijmeni": "Ivanišová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214213,
+        "cip": "0002601744",
+        "jmeno": "Ondřej",
+        "prijmeni": "Janeček",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214214,
+        "cip": "0251077681",
+        "jmeno": "David",
+        "prijmeni": "Klikar",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214215,
+        "cip": "0009733982",
+        "jmeno": "Matouš",
+        "prijmeni": "Košař",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214216,
+        "cip": "0008278694",
+        "jmeno": "Robert Petr",
+        "prijmeni": "Koudelka",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214217,
+        "cip": "0005331960",
+        "jmeno": "Mikuláš",
+        "prijmeni": "Krutilek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214218,
+        "cip": "0273655715",
+        "jmeno": "Adéla",
+        "prijmeni": "Kubánková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214219,
+        "cip": "0241311977",
+        "jmeno": "Alexandra",
+        "prijmeni": "Macháňová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214220,
+        "cip": "0002640652",
+        "jmeno": "Jonáš",
+        "prijmeni": "Matějka",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214221,
+        "cip": "0008307731",
+        "jmeno": "Samuel",
+        "prijmeni": "Mazúch",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214222,
+        "cip": "0273667895",
+        "jmeno": "Václav",
+        "prijmeni": "Mečíř",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214223,
+        "cip": "0280670708",
+        "jmeno": "Kristýna",
+        "prijmeni": "Moravcová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214224,
+        "cip": "0295511990",
+        "jmeno": "Linda",
+        "prijmeni": "Nová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214225,
+        "cip": "0280491043",
+        "jmeno": "Julie",
+        "prijmeni": "Novotná",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214234,
+        "cip": "0003906923",
+        "jmeno": "Charlotte",
+        "prijmeni": "Procházková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214226,
+        "cip": "0280670248",
+        "jmeno": "Natálie",
+        "prijmeni": "Prokopová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214227,
+        "cip": "0241299528",
+        "jmeno": "Tereza",
+        "prijmeni": "Řezanková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214228,
+        "cip": "0273607678",
+        "jmeno": "David",
+        "prijmeni": "Šopov",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214229,
+        "cip": "0280668407",
+        "jmeno": "Tereza",
+        "prijmeni": "Venkrbcová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 214230,
+        "cip": "0081754800",
+        "jmeno": "Rozálie",
+        "prijmeni": "Vostatková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208101,
+        "cip": "0261434329",
+        "jmeno": "Jan",
+        "prijmeni": "Beldík",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208102,
+        "cip": "0207592141",
+        "jmeno": "Anežka",
+        "prijmeni": "Bílková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208103,
+        "cip": "0207587373",
+        "jmeno": "Klára",
+        "prijmeni": "Brabcová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208104,
+        "cip": "0007451873",
+        "jmeno": "David Leo",
+        "prijmeni": "Cohen",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208105,
+        "cip": "0207603542",
+        "jmeno": "Petr",
+        "prijmeni": "Čerstvý",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208106,
+        "cip": "0207597421",
+        "jmeno": "Zbyněk",
+        "prijmeni": "Dubský",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208107,
+        "cip": "0251066248",
+        "jmeno": "Matyáš",
+        "prijmeni": "Friedberger",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208108,
+        "cip": "0207593732",
+        "jmeno": "Vladislav",
+        "prijmeni": "Glomb",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208109,
+        "cip": "0251070313",
+        "jmeno": "Šimon",
+        "prijmeni": "Hauba",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208110,
+        "cip": "0317270119",
+        "jmeno": "Nela",
+        "prijmeni": "Honzáková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208111,
+        "cip": "0207597237",
+        "jmeno": "Adéla",
+        "prijmeni": "Chumová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208112,
+        "cip": "0083510172",
+        "jmeno": "Šimon Karel",
+        "prijmeni": "Jakabovič",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208113,
+        "cip": "0207603543",
+        "jmeno": "Barbora Amélie",
+        "prijmeni": "Krejčí",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208114,
+        "cip": "0251078774",
+        "jmeno": "Florian",
+        "prijmeni": "Kubiš",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208115,
+        "cip": "0251068906",
+        "jmeno": "Emma",
+        "prijmeni": "Kybicová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208116,
+        "cip": "0317267103",
+        "jmeno": "Karla",
+        "prijmeni": "Kytnarová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208117,
+        "cip": "0207608055",
+        "jmeno": "Dalibor",
+        "prijmeni": "Libus",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208118,
+        "cip": "0207605624",
+        "jmeno": "Anna",
+        "prijmeni": "Lošonská",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208119,
+        "cip": "0273661144",
+        "jmeno": "Matyáš",
+        "prijmeni": "Macourek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208120,
+        "cip": "0003980057",
+        "jmeno": "Alžběta",
+        "prijmeni": "Matějková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208121,
+        "cip": "0303800021",
+        "jmeno": "Matěj",
+        "prijmeni": "Nečas",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208122,
+        "cip": "0251073810",
+        "jmeno": "Jakub",
+        "prijmeni": "Plíva",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208123,
+        "cip": "0207605168",
+        "jmeno": "Matyáš",
+        "prijmeni": "Rohn",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208124,
+        "cip": "0251069520",
+        "jmeno": "Klára",
+        "prijmeni": "Semeráková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208125,
+        "cip": "0261501219",
+        "jmeno": "Lukáš",
+        "prijmeni": "Suchánek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208126,
+        "cip": "0251077318",
+        "jmeno": "David",
+        "prijmeni": "Švaříček",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208127,
+        "cip": "0207606353",
+        "jmeno": "Jan",
+        "prijmeni": "Tryzna",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208128,
+        "cip": "0261431601",
+        "jmeno": "Filip",
+        "prijmeni": "Vaculík",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208129,
+        "cip": "0207587942",
+        "jmeno": "Sára",
+        "prijmeni": "Weisgärberová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 208130,
+        "cip": "0010687372",
+        "jmeno": "Vojtěch",
+        "prijmeni": "Zimmel",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v IV."
+    },
+    {
+        "kod": 204101,
+        "cip": "0317262892",
+        "jmeno": "Štěpán",
+        "prijmeni": "Brožek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204102,
+        "cip": "0251079506",
+        "jmeno": "Sabina",
+        "prijmeni": "Čerstvá",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204104,
+        "cip": "0317267830",
+        "jmeno": "Jekatěrina",
+        "prijmeni": "Grešnjakova",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204106,
+        "cip": "0207604536",
+        "jmeno": "Kristýna",
+        "prijmeni": "Holubová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204107,
+        "cip": "0207596502",
+        "jmeno": "Mikoláš",
+        "prijmeni": "Hrabaň",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204108,
+        "cip": "0241313023",
+        "jmeno": "Aneta",
+        "prijmeni": "Juráková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204109,
+        "cip": "0207595197",
+        "jmeno": "Barbora",
+        "prijmeni": "Káninská",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204110,
+        "cip": "0207592663",
+        "jmeno": "Lenka",
+        "prijmeni": "Korčáková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204111,
+        "cip": "0251081853",
+        "jmeno": "Berenika",
+        "prijmeni": "Krčálová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204112,
+        "cip": "0317270289",
+        "jmeno": "Veronika",
+        "prijmeni": "Krunclová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204129,
+        "cip": "0241310896",
+        "jmeno": "Šimon",
+        "prijmeni": "Ludvík",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204113,
+        "cip": "0006181106",
+        "jmeno": "Nina",
+        "prijmeni": "Malečková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204114,
+        "cip": "0207596689",
+        "jmeno": "Andrea",
+        "prijmeni": "Mergl",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204115,
+        "cip": "0207587169",
+        "jmeno": "Filip",
+        "prijmeni": "Mihely",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204116,
+        "cip": "0207596316",
+        "jmeno": "Jan",
+        "prijmeni": "Mikuda",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204118,
+        "cip": "0207588311",
+        "jmeno": "Karolína",
+        "prijmeni": "Plačková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204119,
+        "cip": "0207601073",
+        "jmeno": "Petr Bernard",
+        "prijmeni": "Procházka",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204120,
+        "cip": "0207595567",
+        "jmeno": "Viktorie",
+        "prijmeni": "Půlpánová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204121,
+        "cip": "0251067291",
+        "jmeno": "Lucie",
+        "prijmeni": "Rezková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204122,
+        "cip": "0207594644",
+        "jmeno": "Michaela",
+        "prijmeni": "Rozehnalová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204123,
+        "cip": "0317271593",
+        "jmeno": "Vojtěch",
+        "prijmeni": "Svitavský",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204124,
+        "cip": "0317264174",
+        "jmeno": "Matěj",
+        "prijmeni": "Šimonovský",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204125,
+        "cip": "0317256903",
+        "jmeno": "Jolana",
+        "prijmeni": "Vacková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204130,
+        "cip": "0317264724",
+        "jmeno": "Veronika",
+        "prijmeni": "Vondrová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204126,
+        "cip": "0317261584",
+        "jmeno": "Matyáš",
+        "prijmeni": "Voves",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204127,
+        "cip": "0251068469",
+        "jmeno": "Zuzana",
+        "prijmeni": "Vrbová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204128,
+        "cip": "0317255014",
+        "jmeno": "Ondřej",
+        "prijmeni": "Židkov",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v 4.A"
+    },
+    {
+        "kod": 204201,
+        "cip": "0317266177",
+        "jmeno": "Lucie",
+        "prijmeni": "Baldová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204202,
+        "cip": "0317274528",
+        "jmeno": "Eliška",
+        "prijmeni": "Bartoňová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204203,
+        "cip": "0317259240",
+        "jmeno": "Nela",
+        "prijmeni": "Berková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204204,
+        "cip": "0005772888",
+        "jmeno": "Tobiáš",
+        "prijmeni": "Brož",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204230,
+        "cip": "0009763331",
+        "jmeno": "Kristýna",
+        "prijmeni": "Hanáková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204207,
+        "cip": "0317273339",
+        "jmeno": "Kristýna",
+        "prijmeni": "Janečková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204208,
+        "cip": "0013984121",
+        "jmeno": "Emma",
+        "prijmeni": "Jankovská",
+        "message": "Mexiko 1/2",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204231,
+        "cip": "0009742079",
+        "jmeno": "Karolína",
+        "prijmeni": "Jechová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204209,
+        "cip": "0317269776",
+        "jmeno": "Kamila",
+        "prijmeni": "Kopecká",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204210,
+        "cip": "0317258719",
+        "jmeno": "Michal",
+        "prijmeni": "Kramář",
+        "message": "Musaši by Laifa zvládl",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204211,
+        "cip": "0317270120",
+        "jmeno": "Jan",
+        "prijmeni": "Kusý",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204212,
+        "cip": "0317254282",
+        "jmeno": "Štěpán",
+        "prijmeni": "Kužel",
+        "message": "Buď vítán, Warthunder mistře",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204213,
+        "cip": "0006085421",
+        "jmeno": "Marie",
+        "prijmeni": "Lelková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204214,
+        "cip": "0317267652",
+        "jmeno": "Martin",
+        "prijmeni": "Lískovec",
+        "message": "Mao Ce-tung zdraví",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204236,
+        "cip": "0273620849",
+        "jmeno": "Markéta",
+        "prijmeni": "Luxová",
+        "message": "Čau MaAaky",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204216,
+        "cip": "0317268372",
+        "jmeno": "Adéla",
+        "prijmeni": "Malcová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204217,
+        "cip": "0317268903",
+        "jmeno": "Alex",
+        "prijmeni": "Mathouchanh",
+        "message": "Ba-dum-tss",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204218,
+        "cip": "0317274726",
+        "jmeno": "Aneta",
+        "prijmeni": "Měřínská",
+        "message": "Nestalkuj tu Marii Terezii tolik!",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204219,
+        "cip": "0241310001",
+        "jmeno": "Marcela",
+        "prijmeni": "Michaliková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204220,
+        "cip": "0002467776",
+        "jmeno": "Jakub",
+        "prijmeni": "Nedvídek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204232,
+        "cip": "0001364355",
+        "jmeno": "Quoc Viet",
+        "prijmeni": "Nguyen",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204221,
+        "cip": "0317268375",
+        "jmeno": "Kryštof",
+        "prijmeni": "Nosek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204222,
+        "cip": "0317257701",
+        "jmeno": "Ema",
+        "prijmeni": "Orlická",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204223,
+        "cip": "0317257219",
+        "jmeno": "Julie",
+        "prijmeni": "Potůčková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204224,
+        "cip": "0317259592",
+        "jmeno": "Alice",
+        "prijmeni": "Radkovská",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204225,
+        "cip": "0317257540",
+        "jmeno": "Aneta",
+        "prijmeni": "Rákosníková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204235,
+        "cip": "0006499425",
+        "jmeno": "Martyna",
+        "prijmeni": "Sierpniowska-Bartelik",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204227,
+        "cip": "0317258893",
+        "jmeno": "Markéta",
+        "prijmeni": "Straková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204237,
+        "cip": "0303981072",
+        "jmeno": "Klára",
+        "prijmeni": "Tačnerová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 204229,
+        "cip": "0317261959",
+        "jmeno": "Tomáš",
+        "prijmeni": "Votava",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: 3.B, 4.A, 4.B"
+    },
+    {
+        "kod": 198101,
+        "cip": "0303980945",
+        "jmeno": "Miriam",
+        "prijmeni": "Blažková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198102,
+        "cip": "0303981224",
+        "jmeno": "Tomáš",
+        "prijmeni": "Dejl",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198103,
+        "cip": "0303981245",
+        "jmeno": "Eva",
+        "prijmeni": "Drozenová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198104,
+        "cip": "0303980967",
+        "jmeno": "Ema",
+        "prijmeni": "Hálková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198105,
+        "cip": "0303981127",
+        "jmeno": "Vít",
+        "prijmeni": "Hořejší",
+        "message": "Doraž na tvou oblíbenou besedu Výtku..",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198106,
+        "cip": "0303981087",
+        "jmeno": "Sebastian",
+        "prijmeni": "Husák",
+        "message": "Zdar Weffal",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198107,
+        "cip": "0303981113",
+        "jmeno": "Veronika",
+        "prijmeni": "Janatová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198108,
+        "cip": "0303981060",
+        "jmeno": "Nina",
+        "prijmeni": "Janotová",
+        "message": "Ikonická prdel",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198109,
+        "cip": "0303981075",
+        "jmeno": "Lucie",
+        "prijmeni": "Kadlecová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198110,
+        "cip": "0157278886",
+        "jmeno": "Michael",
+        "prijmeni": "Kello",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198111,
+        "cip": "0303981263",
+        "jmeno": "Tereza",
+        "prijmeni": "Kmochová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198112,
+        "cip": "0303980952",
+        "jmeno": "Klára",
+        "prijmeni": "Kopřivová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198130,
+        "cip": "0303981243",
+        "jmeno": "Anna",
+        "prijmeni": "Koutná",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198113,
+        "cip": "0303981292",
+        "jmeno": "Matouš",
+        "prijmeni": "Kraus",
+        "message": "Zdar Dendlere",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198114,
+        "cip": "0280670137",
+        "jmeno": "František",
+        "prijmeni": "Kubát",
+        "message": "Zdar Hraniši",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198115,
+        "cip": "0303981122",
+        "jmeno": "Kateřina",
+        "prijmeni": "Macháčková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198116,
+        "cip": "0303980939",
+        "jmeno": "Antonín",
+        "prijmeni": "Moškoř",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198117,
+        "cip": "0303981073",
+        "jmeno": "Vojtěch",
+        "prijmeni": "Otáhalík",
+        "message": "Zdar Vooty",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198118,
+        "cip": "0303980961",
+        "jmeno": "Marianna",
+        "prijmeni": "Pémová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198119,
+        "cip": "0303981259",
+        "jmeno": "Xenie",
+        "prijmeni": "Penížková",
+        "message": "MVP",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198120,
+        "cip": "0303981239",
+        "jmeno": "Jonáš",
+        "prijmeni": "Perkner",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198121,
+        "cip": "0303980881",
+        "jmeno": "Štěpán",
+        "prijmeni": "Pittner",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198122,
+        "cip": "0303981065",
+        "jmeno": "Magdaléna",
+        "prijmeni": "Schwabiková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198123,
+        "cip": "0303980831",
+        "jmeno": "Sebastian",
+        "prijmeni": "Skopový",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198124,
+        "cip": "0241301986",
+        "jmeno": "Magdalena",
+        "prijmeni": "Soldátová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198125,
+        "cip": "0006570911",
+        "jmeno": "Elena",
+        "prijmeni": "Svobodová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198129,
+        "cip": "0303981125",
+        "jmeno": "Barbora",
+        "prijmeni": "Šánová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198126,
+        "cip": "0303980977",
+        "jmeno": "Ema",
+        "prijmeni": "Šedlbauerová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198127,
+        "cip": "0303980957",
+        "jmeno": "Tomáš František",
+        "prijmeni": "Topka",
+        "message": "Zdar Ing Polar",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 198128,
+        "cip": "0303980978",
+        "jmeno": "Ema",
+        "prijmeni": "Veselá",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v V."
+    },
+    {
+        "kod": 188101,
+        "cip": "0303980838",
+        "jmeno": "Eva",
+        "prijmeni": "Baldrianová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188102,
+        "cip": "0207289815",
+        "jmeno": "Tomáš",
+        "prijmeni": "Bártů",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188103,
+        "cip": "0241299252",
+        "jmeno": "Lukáš",
+        "prijmeni": "Benda",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188104,
+        "cip": "0241306345",
+        "jmeno": "Tereza",
+        "prijmeni": "Brabcová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188131,
+        "cip": "0295437020",
+        "jmeno": "Sofie",
+        "prijmeni": "Bucháčková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188105,
+        "cip": "0230559873",
+        "jmeno": "Anežka",
+        "prijmeni": "Cidlinová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188108,
+        "cip": "0251072726",
+        "jmeno": "Jiří",
+        "prijmeni": "Dlabač",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188109,
+        "cip": "0261608905",
+        "jmeno": "Ondřej",
+        "prijmeni": "Doležel",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188110,
+        "cip": "0230559540",
+        "jmeno": "Viktorie",
+        "prijmeni": "Fejfarová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188112,
+        "cip": "0241302508",
+        "jmeno": "Filip",
+        "prijmeni": "Jakoubek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188113,
+        "cip": "0207590196",
+        "jmeno": "Adam",
+        "prijmeni": "Kříž",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188114,
+        "cip": "0275349584",
+        "jmeno": "Ema",
+        "prijmeni": "Kyselicová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188116,
+        "cip": "0000489706",
+        "jmeno": "Anna",
+        "prijmeni": "Malínská",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188134,
+        "cip": "0317274727",
+        "jmeno": "Natálie",
+        "prijmeni": "Miklasová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188117,
+        "cip": "0253468714",
+        "jmeno": "Nam",
+        "prijmeni": "Ngo Doan",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188118,
+        "cip": "0012556566",
+        "jmeno": "Anna",
+        "prijmeni": "Obuškevičová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188119,
+        "cip": "0236059799",
+        "jmeno": "Natalie Maria",
+        "prijmeni": "Plomp",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188120,
+        "cip": "0251066425",
+        "jmeno": "Jakub",
+        "prijmeni": "Podzimek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188121,
+        "cip": "0251075477",
+        "jmeno": "Čeněk",
+        "prijmeni": "Potužník",
+        "message": "Máš styl Čendy, nevím, kde jsi ho vzal",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188122,
+        "cip": "0207592879",
+        "jmeno": "Samuel",
+        "prijmeni": "Profeld",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188123,
+        "cip": "0207594865",
+        "jmeno": "Jan",
+        "prijmeni": "Sochor",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188124,
+        "cip": "0261498677",
+        "jmeno": "Hedvika",
+        "prijmeni": "Starobová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188125,
+        "cip": "0251079502",
+        "jmeno": "Adam",
+        "prijmeni": "Stratílek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188126,
+        "cip": "0241307447",
+        "jmeno": "Petr",
+        "prijmeni": "Suchánek",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188127,
+        "cip": "0273613356",
+        "jmeno": "Týna",
+        "prijmeni": "Šnobrová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188128,
+        "cip": "0241311819",
+        "jmeno": "Šimon",
+        "prijmeni": "Vacek",
+        "message": "Tvůrčí psaní gang",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188129,
+        "cip": "0230551100",
+        "jmeno": "František",
+        "prijmeni": "Valter",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 188130,
+        "cip": "0207598730",
+        "jmeno": "Jakub",
+        "prijmeni": "Žák",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VI."
+    },
+    {
+        "kod": 178101,
+        "cip": "0280668948",
+        "jmeno": "Klára",
+        "prijmeni": "Adamská",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178132,
+        "cip": "0230546064",
+        "jmeno": "Martin",
+        "prijmeni": "Beňo",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178103,
+        "cip": "0280574654",
+        "jmeno": "Laura",
+        "prijmeni": "Brodilová",
+        "message": "Nemáme vánoční stromečky",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178104,
+        "cip": "0280491190",
+        "jmeno": "Ema",
+        "prijmeni": "Grulichová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178105,
+        "cip": "0241314361",
+        "jmeno": "Lenka",
+        "prijmeni": "Honzáková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178131,
+        "cip": "0280491173",
+        "jmeno": "Jakub",
+        "prijmeni": "Houška",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178106,
+        "cip": "0280670223",
+        "jmeno": "Lucie",
+        "prijmeni": "Chottousová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178107,
+        "cip": "0280652923",
+        "jmeno": "Luděk",
+        "prijmeni": "Imramovský",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178108,
+        "cip": "0280574629",
+        "jmeno": "Vojtěch",
+        "prijmeni": "Janota",
+        "message": "Péro z gauče?",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178109,
+        "cip": "0280668728",
+        "jmeno": "Klára",
+        "prijmeni": "Klesnilová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178110,
+        "cip": "0241313197",
+        "jmeno": "Martin",
+        "prijmeni": "Koleňák",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178111,
+        "cip": "0280491161",
+        "jmeno": "Dalibor",
+        "prijmeni": "Kostlivý",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178112,
+        "cip": "0280670232",
+        "jmeno": "Barbora",
+        "prijmeni": "Koutná",
+        "message": "Všechno bude dobrý",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178113,
+        "cip": "0280491051",
+        "jmeno": "Lucie",
+        "prijmeni": "Kračmarová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178114,
+        "cip": "0280670121",
+        "jmeno": "Marina",
+        "prijmeni": "Krejčová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178115,
+        "cip": "0280491061",
+        "jmeno": "Andrea Emílie",
+        "prijmeni": "Kreppke",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178116,
+        "cip": "0280491063",
+        "jmeno": "Stella",
+        "prijmeni": "Lišková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178117,
+        "cip": "0241317584",
+        "jmeno": "Matyáš",
+        "prijmeni": "Lučan",
+        "message": "Tancujeme. Jsi žena",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178118,
+        "cip": "0012601902",
+        "jmeno": "Věra",
+        "prijmeni": "Malinská",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178134,
+        "cip": "0241301472",
+        "jmeno": "Anastasiia",
+        "prijmeni": "Nazarenko",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178119,
+        "cip": "0241316867",
+        "jmeno": "Jitka",
+        "prijmeni": "Neužilová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178120,
+        "cip": "0273607511",
+        "jmeno": "Viktorie",
+        "prijmeni": "Pekárková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178121,
+        "cip": "0280491171",
+        "jmeno": "Anna",
+        "prijmeni": "Pilařová",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178122,
+        "cip": "0280491151",
+        "jmeno": "Lucie",
+        "prijmeni": "Roskovská",
+        "message": "Jak jde FIKS?",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178123,
+        "cip": "0280670167",
+        "jmeno": "Veronika",
+        "prijmeni": "Roskovská",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178124,
+        "cip": "0317274208",
+        "jmeno": "Thaddeus Eugene",
+        "prijmeni": "Ruff",
+        "message": "'Merica!",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178125,
+        "cip": "0207292706",
+        "jmeno": "Jáchym",
+        "prijmeni": "Smělý",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178126,
+        "cip": "0079615996",
+        "jmeno": "Filip",
+        "prijmeni": "Starý",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178130,
+        "cip": "0280671576",
+        "jmeno": "Štěpán",
+        "prijmeni": "Šafránek",
+        "message": "Nene, já nemusím, já už to vidím",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178127,
+        "cip": "0241306697",
+        "jmeno": "Jana",
+        "prijmeni": "Štusáková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178128,
+        "cip": "0280652929",
+        "jmeno": "Lukáš",
+        "prijmeni": "Tomanec",
+        "message": "Pink floydi hadr.",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 178129,
+        "cip": "0079614109",
+        "jmeno": "Veronika",
+        "prijmeni": "Vlčková",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v VII."
+    },
+    {
+        "kod": 168101,
+        "cip": "0012240228",
+        "jmeno": "Tereza",
+        "prijmeni": "Bencková",
+        "message": "Jak se to čte, Benková?",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168102,
+        "cip": "0081478696",
+        "jmeno": "Jaromír",
+        "prijmeni": "Blín",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168103,
+        "cip": "0207605474",
+        "jmeno": "Matěj",
+        "prijmeni": "Drobný",
+        "message": "Čemu včely čelí?",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168104,
+        "cip": "0273652870",
+        "jmeno": "Daniel",
+        "prijmeni": "Drtil",
+        "message": "Dobré jitro",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168135,
+        "cip": "0001633400",
+        "jmeno": "Daniel",
+        "prijmeni": "Dvořák",
+        "message": "Nebreč!",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168106,
+        "cip": "0273621220",
+        "jmeno": "Antonín",
+        "prijmeni": "Fabel",
+        "message": "Drží mě tady zavřeného ve sklepě, pomoc!",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168134,
+        "cip": "0006916492",
+        "jmeno": "Michal",
+        "prijmeni": "Hořejší",
+        "message": 11,
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168107,
+        "cip": "0261493142",
+        "jmeno": "Filip",
+        "prijmeni": "Hrehovčík",
+        "message": "Ty jsi tak vtipný!",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168108,
+        "cip": "0241315146",
+        "jmeno": "Rozálie Tereza",
+        "prijmeni": "Husáková",
+        "message": "Ahoj Térezko!",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168133,
+        "cip": 55555,
+        "jmeno": "Martin",
+        "prijmeni": "Cholenský",
+        "message": "Who's gonna carry the boats and logs?!",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168109,
+        "cip": "0081786436",
+        "jmeno": "Tobiáš",
+        "prijmeni": "Kello",
+        "message": "Tak ještě máš kolo, ne?",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168110,
+        "cip": "0241312176",
+        "jmeno": "Kateřina",
+        "prijmeni": "Kolářová",
+        "message": "A slovo dne je větroliboplavbovzducholoď",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168138,
+        "cip": "0241312528",
+        "jmeno": "Mariia",
+        "prijmeni": "Kovalchuk",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168111,
+        "cip": "0261511867",
+        "jmeno": "Anna",
+        "prijmeni": "Krbcová",
+        "message": "Cha-cha kdy?",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168114,
+        "cip": "0273617199",
+        "jmeno": "Barbora",
+        "prijmeni": "Macháčková",
+        "message": "Somálsko den 2",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168115,
+        "cip": "0005764777",
+        "jmeno": "Matthew David",
+        "prijmeni": "Muzikář",
+        "message": "Vytvořeno na Scratch inc.",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168116,
+        "cip": "0261500116",
+        "jmeno": "Barbora",
+        "prijmeni": "Nagyová",
+        "message": "OK bestie <3",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168117,
+        "cip": "0303981294",
+        "jmeno": "Kateřina",
+        "prijmeni": "Oliyarnyk",
+        "message": "Věštíš i z vnitřností?",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168118,
+        "cip": "0261503446",
+        "jmeno": "Adam",
+        "prijmeni": "Olmer",
+        "message": "Vamos",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168119,
+        "cip": "0079611608",
+        "jmeno": "Karolína",
+        "prijmeni": "Pešková",
+        "message": "Tak když už nám Karolína přišla, to toho musíme využít",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168120,
+        "cip": "0241298136",
+        "jmeno": "Nela",
+        "prijmeni": "Postlerová",
+        "message": "Gutentag",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168121,
+        "cip": "0241304305",
+        "jmeno": "Adéla",
+        "prijmeni": "Potužníková",
+        "message": "P<sub>(x:n, p)</sub> = <sup>n</sup>C<sub>x</sub>p<sup>x</sup>( 1 - p )<sup>n - x</sup>",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168122,
+        "cip": "0079616144",
+        "jmeno": "Julie",
+        "prijmeni": "Sedlářová",
+        "message": "Tož si užij festival Julino.",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168123,
+        "cip": "0273625552",
+        "jmeno": "Daniel",
+        "prijmeni": "Skoumal",
+        "message": "Jana gana mana",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168124,
+        "cip": "0081784031",
+        "jmeno": "Kristýna",
+        "prijmeni": "Sochůrková",
+        "message": "Ahoj Kikouši!",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168125,
+        "cip": "0241304672",
+        "jmeno": "Jonáš",
+        "prijmeni": "Střelec",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168131,
+        "cip": "0273611496",
+        "jmeno": "Veronika",
+        "prijmeni": "Šťastná",
+        "message": "Mexiko 2/2",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168126,
+        "cip": "0010117707",
+        "jmeno": "Ladislav",
+        "prijmeni": "Švec",
+        "message": "No, Ladislave, co ten Semafor?",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168130,
+        "cip": "0087042513",
+        "jmeno": "Benjamin",
+        "prijmeni": "Taylor",
+        "message": "Čau Bene",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168127,
+        "cip": "0261511872",
+        "jmeno": "Adam",
+        "prijmeni": "Vacek",
+        "message": "Vamoss",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168128,
+        "cip": "0261499932",
+        "jmeno": "Adriana Eva",
+        "prijmeni": "Veselková",
+        "message": "Guten Morgen, Frau Efa!",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168129,
+        "cip": "0083511413",
+        "jmeno": "Tadeáš",
+        "prijmeni": "Vodička",
+        "message": "",
+        "prvniPromitaciTrida": "První film máš v: V., VI., VII."
+    },
+    {
+        "kod": 168140,
+        "cip": 5,
+        "jmeno": "Test",
+        "prijmeni": "Student 1",
+        "message": "HeHe",
+        "prvniPromitaciTrida": "Moje"
+    },
+    {
+        "kod": 168141,
+        "cip": 2,
+        "jmeno": "Test",
+        "prijmeni": "Student 2",
+        "message": "HuHu",
+        "prvniPromitaciTrida": "Ne"
+    }
+]

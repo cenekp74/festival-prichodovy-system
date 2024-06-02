@@ -4,6 +4,7 @@ from flask_login import login_required, login_user, logout_user, current_user
 from app.db_classes import User, Student
 from app.forms import LoginForm
 from app.utils import class_name_from_code
+import json
 
 CLASSES = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VII', '1.A', '2.A', '3.A', '4.A', '1.B', '2.B', '3.B', '4.B']
 
@@ -21,6 +22,20 @@ def edit():
 def edit_class(class_name):
     students = [student for student in Student.query.all() if class_name_from_code(student.code) == class_name]
     return render_template('edit_class.html', students=students)
+
+@app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!
+@login_required
+def add():
+    request_json = json.loads(request.json)
+    name = request_json["name"]
+    code = request_json["code"]
+    rfid = None
+    if "rfid" in request_json: # rfid je optional, student se muze pridat bez kodu cipu
+        rfid = request_json["rfid"]
+    student = Student(name=name, code=code, rfid=rfid)
+    db.session.add(student)
+    db.session.commit()
+    return '200'
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():

@@ -15,6 +15,7 @@ VCASNY_PRICHOD_LIMIT = datetime(2000, 1, 1, 8, 35).time()
 def index():
     return render_template('index.html')
 
+#region edit
 @app.route('/edit')
 @login_required
 def edit():
@@ -70,6 +71,10 @@ def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POS
     time = datetime.now().time()
     if time > VCASNY_PRICHOD_LIMIT: stat = 'late'
     return render_template('write/write_response.html', student=student, time=time.strftime("%H:%M"), stat=stat)
+#endregion edit
+
+#region view
+#endregion view
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!
 @login_required

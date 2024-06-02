@@ -1,0 +1,32 @@
+:root {
+    --result-color: var(--left-column-bg);
+}
+
+.rfid-input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#write-result {
+    background-color: var(--result-color);
+    width: 50vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100vw;
+    font-size: 3rem;
+}
+
+.write-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+    height: 100vh;
+    width: 100vw;
+}

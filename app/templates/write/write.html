@@ -4,16 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to-fit="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" , shrink-to-fit="no">
     <link rel="stylesheet" href="{{ url_for('static', filename='/css/main.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='/css/edit.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='/css/tables.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/write.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
 </head>
 
 <body>
-    <input type="text" class="rfid-input" placeholder="" name="rfid" hx-post="{{ url_for('write') }}" hx-target="#write-result" hx-trigger="keyup changed delay:200ms" hx-on::after-request="this.value=''">
-    <div id="write-result">
+    <div class="write-wrapper">
+        <input type="text" class="rfid-input" autocomplete="off" autofocus="" onblur="this.focus()" placeholder=""
+        name="rfid" hx-post="{{ url_for('write') }}" hx-target="#write-result" hx-trigger="keyup[target.value.length > 0] delay:200ms"
+        hx-on::after-request="this.value=''">
+        <div id="write-result">
+    </div>
 </body>
+
 </html>

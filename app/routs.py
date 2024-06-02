@@ -87,13 +87,17 @@ def view_class():
         flash('Vyberte prosím třídu a datum')
         return redirect(url_for('view'))
     students = get_students_by_class_name(class_name)
-    prichody = {}
+    prichody = {} # prichody studentu ve formatu {student_id: {"time":cas_prichodu, "stat":absence/pozndni/vcasny), "color":barvicka}}
     for student in students:
         prichod = Prichod.query.filter_by(student_id=student.id).filter(
             func.date(Prichod.dt) == date
         ).first() # tohle vytahne z databaze prichod studenta v dany den pokud existuje
-        if not prichod: prichody[student.id] = "---"
-        else: prichody[student.id] = prichod.dt.time().strftime("%H:%M")
+        if not prichod:
+            prichody[student.id] = {"time":"---", "stat":"absence", "color":"red"}
+            continue
+        stat = 'včasný' if prichod.dt.time() <= VCASNY_PRICHOD_LIMIT else 'pozdní'
+        color = 'green' if stat == 'včasný' else 'yellow'
+        prichody[student.id] = {"time":prichod.dt.time().strftime("%H:%M"), "stat": stat, "color":color}
     return render_template('view/view_class.html', classes=CLASSES, students=students, prichody=prichody, date=date, class_name=class_name)
 #endregion view
 

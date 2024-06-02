@@ -11,11 +11,13 @@
         <tr>
             <th>Jméno</th>
             <th>Čas příchodu</th>
+            <th>Příchod</th>
         </tr>
         {% for student in students %}
         <tr>
             <td>{{ student.name }}</td>
-            <td>{{ prichody[student.id] }}</td>
+            <td>{{ prichody[student.id].time }}</td>
+            <td class="{{ prichody[student.id].color }}">{{ prichody[student.id].stat }}</td>
         </tr>
         {% endfor %}
     </table>    

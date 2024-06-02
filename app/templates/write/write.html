@@ -13,11 +13,19 @@
 
 <body>
     <div class="write-wrapper">
-        <input type="text" class="rfid-input" autocomplete="off" autofocus="" onblur="this.focus()" placeholder=""
+        <input type="text" class="rfid-input" autocomplete="off" autofocus="" onblur="restoreFocus(this)" placeholder=""
         name="rfid" hx-post="{{ url_for('write') }}" hx-target="#write-result" hx-trigger="keyup[target.value.length > 0] delay:200ms"
         hx-on::after-request="this.value=''">
         <div id="write-result">
     </div>
 </body>
+
+<script>
+    function restoreFocus(ele) { // funkce na restorovani focusu na input element aby cipovani fungovalo dal i kdyz kliknu jinam
+        setTimeout(function() {
+            ele.focus()
+        }, 50) // musi byt delay aspon par ms jinak to nefunguje nevim proc
+    }
+</script>
 
 </html>

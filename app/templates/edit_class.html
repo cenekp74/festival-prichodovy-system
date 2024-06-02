@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+
+{% block body %}
+
+<div class="student-select">
+    {% for student in students %}
+    <div>{{ student }}</div>
+    {% endfor %}
+</div>
+
+{% endblock %}

@@ -9,10 +9,16 @@
     --button-hover-color: #616161;
     --border-radius: 5px;
     --bg-color: var(--right-column-bg);
+    --link-color: #d7cafc;
+    --link-hover-color: #babaff;
 }
 
 a {
-    color: var(--text-color);
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-hover-color);
 }
 
 body {

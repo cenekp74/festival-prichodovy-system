@@ -5,8 +5,10 @@ from app.db_classes import User, Student, Prichod
 from app.forms import LoginForm
 from app.utils import class_name_from_code, search
 import json
+from datetime import datetime
 
 CLASSES = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VII', '1.A', '2.A', '3.A', '4.A', '1.B', '2.B', '3.B', '4.B']
+VCASNY_PRICHOD_LIMIT = datetime(2000, 1, 1, 8, 35).time()
 
 @app.route('/')
 @app.route('/index')
@@ -62,7 +64,10 @@ def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POS
     prichod = Prichod(student_id=student.id)
     db.session.add(prichod)
     db.session.commit()
-    return render_template('write/write_response.html', student=student)
+    stat = 'ok' # podle tohohle bude mit cas prichodu barvicku
+    time = datetime.now().time()
+    if time > VCASNY_PRICHOD_LIMIT: stat = 'late'
+    return render_template('write/write_response.html', student=student, time=time.strftime("%H:%M"), stat=stat)
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!
 @login_required

@@ -1,5 +1,7 @@
 :root {
     --result-color: var(--left-column-bg);
+    --ok-color: lightgreen;
+    --late-color: red;
 }
 
 .rfid-input {
@@ -18,8 +20,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
     border-radius: 100vw;
     font-size: 3rem;
+}
+
+#write-result .time {
+    font-size: 2rem;
+}
+
+#write-result .time.ok {
+    color: var(--ok-color);
+}
+
+#write-result .time.late {
+    color: var(--late-color);
 }
 
 .write-wrapper {

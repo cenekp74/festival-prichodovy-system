@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to-fit="no">
     <link rel="stylesheet" href="{{ url_for('static', filename='/css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/edit.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     {% block head %}
     {% endblock %}
 </head>
 
 <body>
-    <div class="content">
-        {% with messages = get_flashed_messages(with_categories=true) %}
+    {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
         {% for category, message in messages %}
         <div class="alert alert-{{ category }}">
@@ -22,8 +22,18 @@
         {% endfor %}
         {% endif %}
         {% endwith %}
-        {% block body %}
-        {% endblock %}
+    <div class="content">
+        <div class="left-column">
+            <div class="class-select">
+                {% for class_name in classes %}
+                <a href="{{ url_for('edit_class', class_name=class_name) }}"><div>{{ class_name }}</div></a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="right-column">
+            {% block right_column %}
+            {% endblock %}
+        </div>
     </div>
     <script src="{{ url_for('static', filename='/js/main.js') }}"></script>
 </body>

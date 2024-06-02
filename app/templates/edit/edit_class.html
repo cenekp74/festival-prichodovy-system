@@ -1,14 +1,14 @@
-{% extends 'base.html' %}
+{% extends 'edit/edit_base.html' %}
 
 {% block head %}
 {% endblock %}
 
 
-{% block body %}
+{% block right_column %}
 
 <div class="student-select">
     {% for student in students %}
-    <div>{{ student }}</div>
+    <div>{{ student.name }}</div>
     {% endfor %}
 </div>
 

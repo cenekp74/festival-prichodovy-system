@@ -15,13 +15,13 @@ def index():
 
 @app.route('/edit')
 def edit():
-    return render_template('edit.html', classes=CLASSES)
+    return render_template('edit/edit.html', classes=CLASSES)
 
 @app.route('/edit_class/<class_name>')
 @app.route('/edit/class/<class_name>')
 def edit_class(class_name):
     students = [student for student in Student.query.all() if class_name_from_code(student.code) == class_name]
-    return render_template('edit_class.html', students=students)
+    return render_template('edit/edit_class.html', students=students, classes=CLASSES)
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!
 @login_required

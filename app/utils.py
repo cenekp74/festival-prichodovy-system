@@ -1,4 +1,4 @@
-CURRENT_YEAR = 2024 # rok konani festivalu
+CURRENT_YEAR = 2023 # rok konani festivalu
 
 def class_name_from_code(student_code):
     student_code = str(student_code)

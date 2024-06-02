@@ -110,7 +110,7 @@ def login():
         if user and bcrypt.check_password_hash(user.password, form.password.data):
             login_user(user, remember=form.remember.data)
             return redirect('/')
-        flash('Přihlášení se nezdařilo - zkontrolujte jméno a heslo', 'danger')
+        #flash('Přihlášení se nezdařilo - zkontrolujte jméno a heslo', 'danger')
     return render_template('login.html', form=form)
 
 @app.route('/logout')

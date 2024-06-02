@@ -9,6 +9,31 @@
     --bg-color: var(--right-column-bg);
     --link-color: #d7cafc;
     --link-hover-color: #babaff;
+    --alert-color: #38314b;
+}
+
+.alert {
+    background-color: var(--alert-color);
+    border-radius: var(--border-radius);
+    line-height: 3rem;
+    font-size: 1.3rem;
+    width: 60%;
+    text-align: center;
+    margin: .3rem;
+    font-style: italic;
+    text-indent: 3px;
+    position: absolute;
+    top: .3rem;
+    right: 2rem;
+}
+
+.alert i {
+    float: right;
+    line-height: 3rem;
+    margin-right: 10px;
+    cursor: pointer;
+    padding-right: 2px;
+    padding-left: 3px;
 }
 
 a {

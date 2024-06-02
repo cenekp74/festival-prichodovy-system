@@ -26,17 +26,23 @@
         {% endwith %}
     <div class="content">
         <div class="left-column">
-            <div style="font-size: 2.5rem;">Třídy:</div>
-            <div class="class-select">
-                {% for class_name in classes %}
-                <label for="radio_{{ class_name }}">
-                    <div id="{{ class_name }}">
-                        <input type="radio" name="class" value="{{ class_name }}" id="radio_{{ class_name }}">
-                        {{ class_name }}
-                    </div>
-                </label>
-                {% endfor %}
-            </div><br><br>
+            <form method="get" action="{{ url_for('view_class') }}">
+                <div style="font-size: 2.1rem;">Třída:</div>
+                <div class="class-select">
+                    {% for class_name in classes %}
+                    <label for="radio_{{ class_name }}">
+                        <div id="{{ class_name }}">
+                            <input type="radio" name="class" value="{{ class_name }}" id="radio_{{ class_name }}">
+                            {{ class_name }}
+                        </div>
+                    </label>
+                    {% endfor %}
+                </div><br>
+                <div style="font-size: 2rem;">Datum:</div>
+                <input type="date"><br>
+                <button type="submit">Potvrdit</button>
+            </form>
+            <br><br>
             <h2>Vyhledat studenta (min 3 znaky)</h2>
             <div class="search-bar">
                 <input type="text" class="search-input" placeholder="Hledat" name="q" hx-get="PRIDAT ADRESU VIEW SEARCH" hx-trigger="load, keyup changed delay:300ms" hx-target="#search-results">

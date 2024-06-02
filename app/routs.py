@@ -78,8 +78,8 @@ def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POS
 def view():
     return render_template('view/view.html', classes=CLASSES)
 
-@app.route('/view/class/<class_name>')
-def view_class(class_name):
+@app.route('/view/class')
+def view_class():
     return render_template('view/view_class.html', classes=CLASSES)
 #endregion view
 

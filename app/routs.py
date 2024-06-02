@@ -3,7 +3,7 @@ from flask import render_template, url_for, send_from_directory, request, redire
 from flask_login import login_required, login_user, logout_user, current_user
 from app.db_classes import User, Student
 from app.forms import LoginForm
-from app.utils import class_name_from_code
+from app.utils import class_name_from_code, search
 import json
 
 CLASSES = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VII', '1.A', '2.A', '3.A', '4.A', '1.B', '2.B', '3.B', '4.B']
@@ -39,6 +39,15 @@ def edit_student(student_id):
     class_name = class_name_from_code(student.code)
     class_students = [student_ for student_ in Student.query.all() if class_name_from_code(student_.code) == class_name] # vsichni zaci z tridy daneho zaka
     return render_template('edit/edit_student.html', student=student, class_name=class_name, classes=CLASSES, students=class_students)
+
+@app.route('/edit/search')
+@login_required
+def edit_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohlizeni, protoze ve vysledcich musi byt jiny link
+    query = request.args.get('q')
+    results = set()
+    if len(query) > 2:
+        results = search(query)
+    return render_template('edit/search_results.html', results=results)
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!
 @login_required

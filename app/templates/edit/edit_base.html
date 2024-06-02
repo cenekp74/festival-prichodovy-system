@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='/css/edit.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='/css/tables.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     {% block head %}
     {% endblock %}
 </head>
@@ -30,6 +31,12 @@
                 {% for class_name in classes %}
                 <a href="{{ url_for('edit_class', class_name=class_name) }}"><div id="{{ class_name }}">{{ class_name }}</div></a>
                 {% endfor %}
+            </div><br><br>
+            <h2>Vyhledat studenta (min 3 znaky)</h2>
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Hledat" name="q" hx-get="{{ url_for('edit_search') }}" hx-trigger="load, keyup changed delay:300ms" hx-target="#search-results">
+            </div>
+            <div id="search-results">
             </div>
         </div>
         <div class="right-column">

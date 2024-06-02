@@ -1,3 +1,5 @@
+from app.db_classes import Student
+
 CURRENT_YEAR = 2023 # rok konani festivalu
 
 def class_name_from_code(student_code):
@@ -21,3 +23,10 @@ def class_name_from_code(student_code):
         return roman_numerals[str(study_length)]
     class_letter = 'A' if class_number == '1' else 'B'
     return f'{study_length}.{class_letter}'
+
+def search(query):
+    results = set()
+    results.update(Student.query.filter(Student.name.icontains(query)))
+    for student in results:
+        student.name = student.name.replace(query.capitalize(), f'<mark>{query.capitalize()}</mark>').replace(query.lower(), f'<mark>{query}</mark>') 
+    return results

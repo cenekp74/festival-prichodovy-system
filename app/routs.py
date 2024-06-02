@@ -64,8 +64,8 @@ def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POS
     student = Student.query.filter_by(rfid=rfid).first()
     if not student:
         return 'STUDENT NENALEZEN'
-    for prichod in Prichod.query.filter_by(student_id=student.id):
-        if prichod.dt.date() == datetime.today().date(): return f'{student.name} <br> DUPLICITNÍ PŘÍCHOD - IGNORUJI'
+    if Prichod.query.filter_by(student_id=student.id).filter(func.date(Prichod.dt) == datetime.today().date()).first(): # func.date vytahle z datetime objektu date
+        return f'{student.name} <br> DUPLICITNÍ PŘÍCHOD - IGNORUJI'
     prichod = Prichod(student_id=student.id)
     db.session.add(prichod)
     db.session.commit()

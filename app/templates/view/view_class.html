@@ -5,5 +5,19 @@
 
 
 {% block right_column %}
-
+<div>
+    <h1>Třída {{ class_name }} - {{ date }}</h1>
+    <table class="student-table">
+        <tr>
+            <th>Jméno</th>
+            <th>Čas příchodu</th>
+        </tr>
+        {% for student in students %}
+        <tr>
+            <td>{{ student.name }}</td>
+            <td>{{ prichody[student.id] }}</td>
+        </tr>
+        {% endfor %}
+    </table>    
+</div>
 {% endblock %}

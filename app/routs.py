@@ -3,9 +3,10 @@ from flask import render_template, url_for, send_from_directory, request, redire
 from flask_login import login_required, login_user, logout_user, current_user
 from app.db_classes import User, Student, Prichod
 from app.forms import LoginForm
-from app.utils import class_name_from_code, search
+from app.utils import class_name_from_code, search, get_students_by_class_name
 import json
 from datetime import datetime
+from sqlalchemy import func
 
 CLASSES = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', '1.A', '2.A', '3.A', '4.A', '3.B', '4.B'] # pro rok 23/24
 VCASNY_PRICHOD_LIMIT = datetime(2000, 1, 1, 8, 35).time()
@@ -25,7 +26,7 @@ def edit():
 @app.route('/edit/class/<class_name>')
 @login_required
 def edit_class(class_name):
-    students = [student for student in Student.query.all() if class_name_from_code(student.code) == class_name]
+    students = get_students_by_class_name(class_name)
     return render_template('edit/edit_class.html', students=students, classes=CLASSES, class_name=class_name)
 
 @app.route('/edit/student/<student_id>', methods=['GET', 'POST'])
@@ -40,7 +41,7 @@ def edit_student(student_id):
         db.session.commit()
     # v templatu edit_student.html zobrazuju i tridu studenta, proto musim queryinout vsechny zaky z dane tridy
     class_name = class_name_from_code(student.code)
-    class_students = [student_ for student_ in Student.query.all() if class_name_from_code(student_.code) == class_name] # vsichni zaci z tridy daneho zaka
+    class_students = get_students_by_class_name(class_name)
     return render_template('edit/edit_student.html', student=student, class_name=class_name, classes=CLASSES, students=class_students)
 
 @app.route('/edit/search')
@@ -85,7 +86,15 @@ def view_class():
     if not date or not class_name:
         flash('Vyberte prosím třídu a datum')
         return redirect(url_for('view'))
-    return render_template('view/view_class.html', classes=CLASSES)
+    students = get_students_by_class_name(class_name)
+    prichody = {}
+    for student in students:
+        prichod = Prichod.query.filter_by(student_id=student.id).filter(
+            func.date(Prichod.dt) == date
+        ).first() # tohle vytahne z databaze prichod studenta v dany den pokud existuje
+        if not prichod: prichody[student.id] = "---"
+        else: prichody[student.id] = prichod.dt.time().strftime("%H:%M")
+    return render_template('view/view_class.html', classes=CLASSES, students=students, prichody=prichody, date=date)
 #endregion view
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!

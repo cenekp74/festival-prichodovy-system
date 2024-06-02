@@ -30,3 +30,6 @@ def search(query):
     for student in results:
         student.name = student.name.replace(query.capitalize(), f'<mark>{query.capitalize()}</mark>').replace(query.lower(), f'<mark>{query}</mark>') 
     return results
+
+def get_students_by_class_name(class_name):
+    return [student for student in Student.query.all() if class_name_from_code(student.code) == class_name]

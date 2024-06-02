@@ -61,14 +61,21 @@ body {
     padding: .3rem;
     margin: .1rem;
     font-size: 1.4rem;
-    text-align: center;
     font-weight: bold;
     border: 1px solid var(--text-color);
     border-radius: 5px;
+    text-align: center;
+    position: relative;
 }
 
-.class-select div:hover {
+.class-select div:hover, .class-select div:has([type="radio"]:checked) {
     background-color: var(--button-hover-color);
+}
+
+.class-select input[type="radio"] {
+    position: absolute;
+    left: 0;
+    top: .5rem;
 }
 
 .class-select div.active {

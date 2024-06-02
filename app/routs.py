@@ -51,6 +51,7 @@ def edit_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohli
     if len(query) > 2:
         results = search(query)
     return render_template('edit/search_results.html', results=results)
+#endregion edit
 
 @app.route('/write', methods=['GET', 'POST'])
 @login_required
@@ -71,9 +72,15 @@ def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POS
     time = datetime.now().time()
     if time > VCASNY_PRICHOD_LIMIT: stat = 'late'
     return render_template('write/write_response.html', student=student, time=time.strftime("%H:%M"), stat=stat)
-#endregion edit
 
 #region view
+@app.route('/view')
+def view():
+    return render_template('view/view.html', classes=CLASSES)
+
+@app.route('/view/class/<class_name>')
+def view_class(class_name):
+    return render_template('view/view_class.html', classes=CLASSES)
 #endregion view
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!

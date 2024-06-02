@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to-fit="no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/view.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/tables.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    {% block head %}
+    {% endblock %}
+</head>
+
+<body>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ category }}">
+            {{ message }} <i onclick="setParentDisplayNone(this)" class="fa fa-xmark"></i>
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+    <div class="content">
+        <div class="left-column">
+            <div style="font-size: 2.5rem;">Třídy:</div>
+            <div class="class-select">
+                {% for class_name in classes %}
+                <label for="radio_{{ class_name }}">
+                    <div id="{{ class_name }}">
+                        <input type="radio" name="class" value="{{ class_name }}" id="radio_{{ class_name }}">
+                        {{ class_name }}
+                    </div>
+                </label>
+                {% endfor %}
+            </div><br><br>
+            <h2>Vyhledat studenta (min 3 znaky)</h2>
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Hledat" name="q" hx-get="PRIDAT ADRESU VIEW SEARCH" hx-trigger="load, keyup changed delay:300ms" hx-target="#search-results">
+            </div>
+            <div id="search-results">
+            </div>
+        </div>
+        <div class="right-column">
+            {% block right_column %}
+            {% endblock %}
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='/js/main.js') }}"></script>
+</body>
+</html>

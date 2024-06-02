@@ -1,7 +1,7 @@
 from app import app, db, bcrypt
 from flask import render_template, url_for, send_from_directory, request, redirect, flash, make_response, abort
 from flask_login import login_required, login_user, logout_user, current_user
-from app.db_classes import User, Student
+from app.db_classes import User, Student, Prichod
 from app.forms import LoginForm
 from app.utils import class_name_from_code, search
 import json
@@ -48,6 +48,21 @@ def edit_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohli
     if len(query) > 2:
         results = search(query)
     return render_template('edit/search_results.html', results=results)
+
+@app.route('/write', methods=['GET', 'POST'])
+@login_required
+def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POST zapise prichod a vrati odpoved
+    if request.method == 'GET':
+        return render_template('write/write.html')
+    rfid = request.form.get("rfid")
+    if not rfid: abort(500) # pokud v POST requestu neni argument rfid, je neplatny
+    student = Student.query.filter_by(rfid=rfid).first()
+    if not student:
+        return 'STUDENT NENALEZEN'
+    prichod = Prichod(student_id=student.id)
+    db.session.add(prichod)
+    db.session.commit()
+    return render_template('write/write_response.html', student=student)
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!
 @login_required

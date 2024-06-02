@@ -8,6 +8,7 @@
     --text-color: white;
     --button-hover-color: #616161;
     --border-radius: 5px;
+    --bg-color: var(--right-column-bg);
 }
 
 a {
@@ -18,6 +19,7 @@ body {
     margin: 0;
     color: var(--text-color);
     font-family: Roboto;
+    background-color: var(--bg-color);
 }
 
 .content {

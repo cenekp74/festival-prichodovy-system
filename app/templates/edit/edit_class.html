@@ -5,11 +5,15 @@
 
 
 {% block right_column %}
-
+<h1>Editování záznamů pro třídu {{ class_name }}</h1>
 <div class="student-select">
     {% for student in students %}
     <div>{{ student.name }}</div>
     {% endfor %}
 </div>
+
+<script>
+    document.getElementById("{{ class_name }}").classList.add('active')
+</script>
 
 {% endblock %}

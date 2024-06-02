@@ -21,7 +21,7 @@ def edit():
 @app.route('/edit/class/<class_name>')
 def edit_class(class_name):
     students = [student for student in Student.query.all() if class_name_from_code(student.code) == class_name]
-    return render_template('edit/edit_class.html', students=students, classes=CLASSES)
+    return render_template('edit/edit_class.html', students=students, classes=CLASSES, class_name=class_name)
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!
 @login_required

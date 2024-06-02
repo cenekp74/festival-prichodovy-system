@@ -6,6 +6,7 @@ body {
     --button-hover-color: #616161;
     --border-radius: 5px;
     color: var(--text-color);
+    font-family: Roboto;
 }
 
 .content {
@@ -45,5 +46,9 @@ body {
 }
 
 .class-select div:hover {
+    background-color: var(--button-hover-color);
+}
+
+.class-select div.active {
     background-color: var(--button-hover-color);
 }

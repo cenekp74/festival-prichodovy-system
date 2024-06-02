@@ -1,0 +1,40 @@
+{% extends 'edit/edit_base.html' %}
+
+{% block head %}
+{% endblock %}
+
+
+{% block right_column %}
+<div>
+    <h1>Třída {{ class_name }}</h1>
+    <table class="student-table">
+        <tr>
+            <th>id</th>
+            <th>Jméno</th>
+            <th>Kód</th>
+            <th>RFID</th>
+        </tr>
+        {% for student_ in students %}
+        <tr>
+            <td><a href="{{ url_for('edit_student', student_id=student_.id) }}">{{ student_.id }}</a></td>
+            <td>{{ student_.name }}</td>
+            <td>{{ student_.code }}</td>
+            <td>{{ student_.rfid }}</td>
+        </tr>
+        {% endfor %}
+    </table>    
+</div>
+<div class="edit-student">
+    <h1>{{ student.name }}</h1>
+    <form method="POST" action="">
+        <input name="rfid" value="{{ student.rfid }}"><br><br>
+        <input type="submit">
+    </form>
+</div>
+
+<script>
+    document.getElementById("{{ class_name }}").classList.add('active')
+</script>
+
+
+{% endblock %}

@@ -1,3 +1,16 @@
 .student-table {
     margin-left: 1rem;
 }
+
+.edit-student {
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    width: 30%;
+    height: 40%;
+    background-color: var(--left-column-bg);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    padding-top: 0;
+    border: 1px solid var(--text-color);
+}

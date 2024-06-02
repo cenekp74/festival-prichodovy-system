@@ -14,4 +14,4 @@ class Student(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String, nullable=False)
     code = db.Column(db.Integer, unique=True, nullable=False)
-    cip = db.Column(db.String(10), unique=True)
+    rfid = db.Column(db.String(10), unique=True)

@@ -16,6 +16,7 @@ def class_name_from_code(student_code):
         '8': 'VIII'
     }
     study_length = CURRENT_YEAR - (int(start_year)+2000) + 1
+    if study_length < 1 or study_length > 8: return 'Invalid code'
     if study_type == '8':
         return roman_numerals[str(study_length)]
     class_letter = 'A' if class_number == '1' else 'B'

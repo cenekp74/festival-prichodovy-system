@@ -80,6 +80,11 @@ def view():
 
 @app.route('/view/class')
 def view_class():
+    class_name = request.args.get("class")
+    date = request.args.get("date")
+    if not date or not class_name:
+        flash('Vyberte prosím třídu a datum')
+        return redirect(url_for('view'))
     return render_template('view/view_class.html', classes=CLASSES)
 #endregion view
 

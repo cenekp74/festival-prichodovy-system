@@ -1,10 +1,16 @@
-body {
-    margin: 0;
+:root {
+    --search-highlight-color: #fceb04ad;
+    --form-color: #11171b;
+    --form-field-color: #37363e;
     --left-column-bg: #3e3e3e;
     --right-column-bg: #202020;
     --text-color: white;
     --button-hover-color: #616161;
     --border-radius: 5px;
+}
+
+body {
+    margin: 0;
     color: var(--text-color);
     font-family: Roboto;
 }
@@ -22,6 +28,9 @@ body {
 
 .right-column {
     background-color: var(--right-column-bg);
+    overflow-y: scroll;
+    padding: 2rem;
+    padding-top: 0;
 }
 
 .class-select {

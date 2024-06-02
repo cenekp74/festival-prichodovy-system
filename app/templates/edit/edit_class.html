@@ -6,11 +6,20 @@
 
 {% block right_column %}
 <h1>Editování záznamů pro třídu {{ class_name }}</h1>
-<div class="student-select">
+<table class="student-table">
+    <tr>
+        <th>Jméno</th>
+        <th>Kód</th>
+        <th>RFID</th>
+    </tr>
     {% for student in students %}
-    <div>{{ student.name }}</div>
+    <tr>
+        <td>{{ student.name }}</td>
+        <td>{{ student.code }}</td>
+        <td>{{ student.rfid }}</td>
+    </tr>
     {% endfor %}
-</div>
+</table>
 
 <script>
     document.getElementById("{{ class_name }}").classList.add('active')

@@ -1,0 +1,48 @@
+:root {
+    --table-hover-color: rgba(120, 173, 182, 0.2);
+}
+
+th, td {
+    padding: 9px;
+    text-align: left;
+}
+
+th {
+    background: var(--secondary-color);
+}
+
+tr:hover td {
+    background: var(--table-hover-color);
+}
+
+table {
+    border: 1px solid var(--text-color);
+    margin-bottom: 5px;
+    border-radius: var(--border-radius);
+}
+
+td a {
+    width: 100%;
+    display: block;
+}
+
+
+th:is(:first-child) {
+    border-top-left-radius: var(--border-radius);
+}
+
+th:is(:last-child) {
+    border-top-right-radius: var(--border-radius);
+}
+
+tr:is(:last-child):hover {
+    border-radius: 20px;
+}
+
+tr:is(:last-child) td:is(:first-child) {
+    border-bottom-left-radius: calc(var(--border-radius) - 4px);
+}
+
+tr:is(:last-child) td:is(:last-child) {
+    border-bottom-right-radius: calc(var(--border-radius) - 4px);
+}

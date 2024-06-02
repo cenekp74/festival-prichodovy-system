@@ -14,14 +14,26 @@ def index():
     return render_template('index.html')
 
 @app.route('/edit')
+@login_required
 def edit():
     return render_template('edit/edit.html', classes=CLASSES)
 
 @app.route('/edit_class/<class_name>')
 @app.route('/edit/class/<class_name>')
+@login_required
 def edit_class(class_name):
     students = [student for student in Student.query.all() if class_name_from_code(student.code) == class_name]
     return render_template('edit/edit_class.html', students=students, classes=CLASSES, class_name=class_name)
+
+@app.post('/edit/student/<student_id>/<new_rfid>')
+@login_required
+def edit_student_rfid(student_id, new_rfid):
+    if not student_id.isdigit(): abort(500)
+    student = Student.query.get(student_id)
+    if not student: abort(500)
+    if len(new_rfid) != 10: abort(500)
+    student.rfid = new_rfid
+    db.session.commit()
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!
 @login_required

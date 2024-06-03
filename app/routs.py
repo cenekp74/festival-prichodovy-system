@@ -19,7 +19,7 @@ def inject_classes():
 
 # require login on all endpoints except login and static
 @app.before_request
-def require_login():
+def require_login(): # POZOR - dela problemy pokud je v url double slash (coz se stava treba kdyz odkazuju na static a dam / na zacatku navic - napr. {{ url_for('static', filename='/css/main.css') }})
     if not current_user.is_authenticated and request.endpoint not in ['login', 'static']:
         return redirect(url_for('login'))
 

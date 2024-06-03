@@ -12,6 +12,11 @@ CLASSES = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', '1.A', '2.A', '3.A'
 VCASNY_PRICHOD_LIMIT = datetime(2000, 1, 1, 8, 35).time()
 FESTIVAL_DNY = [datetime(2024, 12, 16).date(), datetime(2024, 12, 17).date(), datetime(2024, 12, 18).date()] # vyuzity ve view_student
 
+# aby byla variable classes ve vsech templatech a nemusel jsem ji vzdycky jako blbecek pridavat
+@app.context_processor
+def inject_classes():
+    return dict(classes=CLASSES)
+
 @app.route('/')
 @app.route('/index')
 def index():
@@ -21,14 +26,14 @@ def index():
 @app.route('/edit')
 @login_required
 def edit():
-    return render_template('edit/edit.html', classes=CLASSES)
+    return render_template('edit/edit.html')
 
 @app.route('/edit_class/<class_name>')
 @app.route('/edit/class/<class_name>')
 @login_required
 def edit_class(class_name):
     students = get_students_by_class_name(class_name)
-    return render_template('edit/edit_class.html', students=students, classes=CLASSES, class_name=class_name)
+    return render_template('edit/edit_class.html', students=students, class_name=class_name)
 
 @app.route('/edit/student/<student_id>', methods=['GET', 'POST'])
 @login_required
@@ -43,11 +48,11 @@ def edit_student(student_id):
     # v templatu edit_student.html zobrazuju i tridu studenta, proto musim queryinout vsechny zaky z dane tridy
     class_name = class_name_from_code(student.code)
     class_students = get_students_by_class_name(class_name)
-    return render_template('edit/edit_student.html', student=student, class_name=class_name, classes=CLASSES, students=class_students)
+    return render_template('edit/edit_student.html', student=student, class_name=class_name, students=class_students)
 
 @app.route('/edit/search')
 @login_required
-def edit_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohlizeni, protoze ve vysledcich musi byt jiny link
+def edit_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohlizeni, protoze ve vysledcich musi byt jiny link (fce vraci jiny template)
     query = request.args.get('q')
     results = set()
     if len(query) > 2:
@@ -78,7 +83,7 @@ def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POS
 #region view
 @app.route('/view')
 def view():
-    return render_template('view/view.html', classes=CLASSES)
+    return render_template('view/view.html')
 
 @app.route('/view/class')
 def view_class():
@@ -99,7 +104,7 @@ def view_class():
         stat = 'včasný' if prichod.dt.time() <= VCASNY_PRICHOD_LIMIT else 'pozdní'
         color = 'green' if stat == 'včasný' else 'yellow'
         prichody[student.id] = {"time":prichod.dt.time().strftime("%H:%M"), "stat": stat, "color":color}
-    return render_template('view/view_class.html', classes=CLASSES, students=students, prichody=prichody, date=date, class_name=class_name)
+    return render_template('view/view_class.html', students=students, prichody=prichody, date=date, class_name=class_name)
 
 @app.route('/view/student/<student_id>')
 def view_student(student_id):
@@ -118,6 +123,15 @@ def view_student(student_id):
         color = 'green' if stat == 'včasný' else 'yellow'
         prichody.append({"date":date, "time":prichod.dt.time().strftime("%H:%M"), "stat":stat, "color":color})
     return render_template('view/view_student.html', student=student, prichody=prichody)
+
+@app.route('/view/search')
+@login_required
+def view_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohlizeni, protoze ve vysledcich musi byt jiny link (fce vraci jiny template)
+    query = request.args.get('q')
+    results = set()
+    if len(query) > 2:
+        results = search(query)
+    return render_template('view/search_results.html', results=results)
 #endregion view
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!

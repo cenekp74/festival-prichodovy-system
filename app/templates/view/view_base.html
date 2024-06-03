@@ -45,7 +45,7 @@
             <br><br>
             <h2>Vyhledat studenta (min 3 znaky)</h2>
             <div class="search-bar">
-                <input type="text" class="search-input" placeholder="Hledat" name="q" hx-get="PRIDAT ADRESU VIEW SEARCH" hx-trigger="load, keyup changed delay:300ms" hx-target="#search-results">
+                <input type="text" class="search-input" placeholder="Hledat" name="q" hx-get="{{ url_for('view_search') }}" hx-trigger="keyup changed delay:300ms" hx-target="#search-results">
             </div>
             <div id="search-results">
             </div>

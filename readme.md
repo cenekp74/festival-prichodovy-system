@@ -1,4 +1,4 @@
-Prichodovy system na GEKOM filmovy festival
+Prichodovy system na GEKOM filmovy festival 2024
 
 # Poznamky
 - funkce add slouzi k pridani novych studentu pomoci post requestu. pouzivam ji proste tak, ze docasne odstranim @login_required, pridam co potrebuju a pak zase @login_required vratim.
@@ -15,3 +15,7 @@ Prichodovy system na GEKOM filmovy festival
 - samotne zapisovani prichodu jsem pojmenoval jednoduse write
 - htmx posila post request fci write v routs.py
 - ctecka rfid cipu funguje tak, ze se tvari jako klavesnice a proste zada 10 cislic a pak enter
+## View
+- sekce na zobrazovani prichodu
+- view_class funguje podobne jako edit_class, s tim rozdilem, ze se vybira krome tridy jeste datum a proto je to udelany jako form
+- view_student zobrazi pro daneho studenta prichody ve 3 festivalove dny (ty jsou definovane nahore v routs.py)

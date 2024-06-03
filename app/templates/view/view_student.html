@@ -1,0 +1,29 @@
+{% extends 'view/view_base.html' %}
+
+{% block head %}
+{% endblock %}
+
+
+{% block right_column %}
+<div>
+    <h1>{{ student.name }}</h1>
+    <table>
+        <tr>
+            <th>Datum</th>
+            <th>Čas příchodu</th>
+            <th>Příchod</th>
+        </tr>
+        {% for prichod in prichody %}
+        <tr>
+            <td>{{ prichod.date }}</td>
+            <td>{{ prichod.time }}</td>
+            <td class="{{ prichod.color }}">{{ prichod.stat }}</td>
+        </tr>
+        {% endfor %}
+    </table>    
+</div>
+<script>
+    document.getElementById("radio_{{ class_name }}").checked = true;
+    document.querySelector('input[type="date"]').value = "{{ date }}";
+</script>
+{% endblock %}

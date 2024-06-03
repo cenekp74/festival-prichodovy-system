@@ -10,6 +10,7 @@ from sqlalchemy import func
 
 CLASSES = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', '1.A', '2.A', '3.A', '4.A', '3.B', '4.B'] # pro rok 23/24
 VCASNY_PRICHOD_LIMIT = datetime(2000, 1, 1, 8, 35).time()
+FESTIVAL_DNY = [datetime(2024, 12, 16).date(), datetime(2024, 12, 17).date(), datetime(2024, 12, 18).date()] # vyuzity ve view_student
 
 @app.route('/')
 @app.route('/index')
@@ -99,6 +100,24 @@ def view_class():
         color = 'green' if stat == 'včasný' else 'yellow'
         prichody[student.id] = {"time":prichod.dt.time().strftime("%H:%M"), "stat": stat, "color":color}
     return render_template('view/view_class.html', classes=CLASSES, students=students, prichody=prichody, date=date, class_name=class_name)
+
+@app.route('/view/student/<student_id>')
+def view_student(student_id):
+    if not student_id.isdigit(): abort(500)
+    student = Student.query.get(student_id)
+    if not student: abort(404)
+    prichody = [] # prichody studenta ve formatu [{"date":den, "time":cas_prichodu, "stat":absence/pozdni/vcasny, "color":barvicka}]
+    for date in FESTIVAL_DNY:
+        prichod = Prichod.query.filter_by(student_id=student.id).filter(
+            func.date(Prichod.dt) == date
+        ).first()
+        if not prichod:
+            prichody.append({"date":date, "time":"---", "stat":"absence", "color":"red"})
+            continue
+        stat = 'včasný' if prichod.dt.time() <= VCASNY_PRICHOD_LIMIT else 'pozdní'
+        color = 'green' if stat == 'včasný' else 'yellow'
+        prichody.append({"date":date, "time":prichod.dt.time().strftime("%H:%M"), "stat":stat, "color":color})
+    return render_template('view/view_student.html', student=student, prichody=prichody)
 #endregion view
 
 @app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!

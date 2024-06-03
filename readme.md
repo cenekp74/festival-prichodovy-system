@@ -19,3 +19,11 @@ Prichodovy system na GEKOM filmovy festival 2024
 - sekce na zobrazovani prichodu
 - view_class funguje podobne jako edit_class, s tim rozdilem, ze se vybira krome tridy jeste datum a proto je to udelany jako form
 - view_student zobrazi pro daneho studenta prichody ve 3 festivalove dny (ty jsou definovane nahore v routs.py)
+## Zalohy
+### lokalni
+- pri cipovani (write) si muze client vybrat, ze chce ukladat lokalni zalohy
+- lokalni zaloha znamena, ze po kazdych n cipnutich se stahne json soubor s casy a rfid vsech naskenovanych cipu
+- pocet prichodu, po kterych se ma ukladat zaloha je definovany v write.js
+- POZOR - pokud se zaloha uklada napr. po kazdych 5 cipnutich, cipnu 4krat a pak reloadnu, ZALOHA SE NEVYTVORI a data se neulozi do localu => napr. na konci cipovani se nejspis neulozi
+### na serveru
+- chci udelat to, aby server uchovaval kopii prichodu v json ve static (jeste neni implementovane)

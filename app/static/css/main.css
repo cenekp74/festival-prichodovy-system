@@ -47,7 +47,7 @@ a:hover {
 body {
     margin: 0;
     color: var(--text-color);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--bg-color);
 }
 

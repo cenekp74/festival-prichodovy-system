@@ -17,6 +17,12 @@ FESTIVAL_DNY = [datetime(2024, 12, 16).date(), datetime(2024, 12, 17).date(), da
 def inject_classes():
     return dict(classes=CLASSES)
 
+# require login on all endpoints except login and static
+@app.before_request
+def require_login():
+    if not current_user.is_authenticated and request.endpoint not in ['login', 'static']:
+        return redirect(url_for('login'))
+
 @app.route('/')
 @app.route('/index')
 def index():
@@ -24,19 +30,16 @@ def index():
 
 #region edit
 @app.route('/edit')
-@login_required
 def edit():
     return render_template('edit/edit.html')
 
 @app.route('/edit_class/<class_name>')
 @app.route('/edit/class/<class_name>')
-@login_required
 def edit_class(class_name):
     students = get_students_by_class_name(class_name)
     return render_template('edit/edit_class.html', students=students, class_name=class_name)
 
 @app.route('/edit/student/<student_id>', methods=['GET', 'POST'])
-@login_required
 def edit_student(student_id):
     if not student_id.isdigit(): abort(500)
     student = Student.query.get(student_id)
@@ -51,7 +54,6 @@ def edit_student(student_id):
     return render_template('edit/edit_student.html', student=student, class_name=class_name, students=class_students)
 
 @app.route('/edit/search')
-@login_required
 def edit_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohlizeni, protoze ve vysledcich musi byt jiny link (fce vraci jiny template)
     query = request.args.get('q')
     results = set()
@@ -61,7 +63,6 @@ def edit_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohli
 #endregion edit
 
 @app.route('/write', methods=['GET', 'POST'])
-@login_required
 def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POST zapise prichod a vrati odpoved
     if request.method == 'GET':
         return render_template('write/write.html')
@@ -125,7 +126,6 @@ def view_student(student_id):
     return render_template('view/view_student.html', student=student, prichody=prichody)
 
 @app.route('/view/search')
-@login_required
 def view_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohlizeni, protoze ve vysledcich musi byt jiny link (fce vraci jiny template)
     query = request.args.get('q')
     results = set()
@@ -134,8 +134,7 @@ def view_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohli
     return render_template('view/search_results.html', results=results)
 #endregion view
 
-@app.post('/add') # post request na pridani studenta, pro ucely migrace ze starsi databaze. POZOR - je potreba nezapomenout zabezpecit (@login_required) !!
-@login_required
+@app.post('/add') # post request na pridani studenta, hlavne pro ucely migrace ze starsi databaze
 def add():
     request_json = json.loads(request.json)
     name = request_json["name"]

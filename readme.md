@@ -1,7 +1,7 @@
 Prichodovy system na GEKOM filmovy festival 2024
 
 # Poznamky
-- funkce add slouzi k pridani novych studentu pomoci post requestu. pouzivam ji proste tak, ze docasne odstranim @login_required, pridam co potrebuju a pak zase @login_required vratim.
+- funkce add slouzi k pridani novych studentu pomoci post requestu. pouzivam ji proste tak, ze ji docasne pridam do vyjimek ve funkci require_login, pridam co potrebuju a pak vyjimku odstranim
 ## Editovani
 - templaty souvisejici s editovanim jsou ve slozce edit/
 - route /edit ukaze seznam trid

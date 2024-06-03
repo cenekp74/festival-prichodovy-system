@@ -26,4 +26,4 @@ Prichodovy system na GEKOM filmovy festival 2024
 - pocet prichodu, po kterych se ma ukladat zaloha je definovany v write.js
 - POZOR - pokud se zaloha uklada napr. po kazdych 5 cipnutich, cipnu 4krat a pak reloadnu, ZALOHA SE NEVYTVORI a data se neulozi do localu => napr. na konci cipovani se nejspis neulozi
 ### na serveru
-- chci udelat to, aby server uchovaval kopii prichodu v json ve static (jeste neni implementovane)
+- fce view_json vrati vsechny prichody v json formatu. takhle se da bud rucne nebo automaticky stahovat databaze a nekam zalohovat (muze napr. na pocitaci v IVT bezet script a kazdych par minut stahnout zalohu)

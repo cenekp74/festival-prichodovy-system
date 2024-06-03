@@ -1,5 +1,5 @@
 from app import app, db, bcrypt
-from flask import render_template, url_for, send_from_directory, request, redirect, flash, make_response, abort
+from flask import render_template, url_for, send_from_directory, request, redirect, flash, make_response, abort, jsonify
 from flask_login import login_required, login_user, logout_user, current_user
 from app.db_classes import User, Student, Prichod
 from app.forms import LoginForm
@@ -132,6 +132,11 @@ def view_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohli
     if len(query) > 2:
         results = search(query)
     return render_template('view/search_results.html', results=results)
+
+@app.route('/view/json') # vrati vsechny prichody v databazi jako json - pro ucely zalohovani viz readme
+def prichody_to_json():
+    prichody_dict = [prichod.to_dict() for prichod in Prichod.query.all()]
+    return jsonify(prichody_dict)
 #endregion view
 
 @app.post('/add') # post request na pridani studenta, hlavne pro ucely migrace ze starsi databaze

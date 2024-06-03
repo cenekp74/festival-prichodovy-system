@@ -21,3 +21,11 @@ class Prichod(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     dt = db.Column(db.DateTime, default=datetime.now())
     student_id = db.Column(db.Integer, db.ForeignKey('student.id'))
+
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'dt': self.dt.strftime("%Y.%m.%d-%H:%M"),
+            'student_id': self.student_id,
+            'student_name': Student.query.get(self.student_id).name
+        }

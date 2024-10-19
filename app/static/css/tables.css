@@ -46,3 +46,9 @@ tr:is(:last-child) td:is(:first-child) {
 tr:is(:last-child) td:is(:last-child) {
     border-bottom-right-radius: calc(var(--border-radius) - 4px);
 }
+
+@media screen and (max-width: 730px) {
+    th, td {
+        padding: 4px;
+    }
+}

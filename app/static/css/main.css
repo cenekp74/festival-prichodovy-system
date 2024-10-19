@@ -60,11 +60,23 @@ body {
 .left-column {
     background-color: var(--left-column-bg);
     padding: 2rem;
+    overflow-y: scroll;
+    min-width: 95px;
+    overflow-x: hidden;
+}
+
+#trida-text {
+    font-size: 2.1rem;
+}
+
+#datum-text {
+    font-size: 2rem;
 }
 
 .right-column {
     background-color: var(--right-column-bg);
     overflow-y: scroll;
+    overflow-x: scroll;
     padding: 2rem;
     padding-top: 0;
 }
@@ -143,4 +155,79 @@ body {
 
 #search-results {
     font-size: 1.4rem;
+}
+
+#search-results div {
+    margin-bottom: .2rem;
+}
+
+h2#search-label {
+    margin: 2rem 0 .5rem 0;
+}
+
+@media screen and (max-width: 730px) {
+    .left-column, .right-column {
+        padding: .5rem;
+    }
+
+    h2#search-label {
+        margin: 1rem 0 .3rem 0;
+        font-size: 20px;
+    }
+    
+    #trida-text {
+        font-size: 1.7rem;
+    }
+
+    #datum-text {
+        font-size: 1.6rem;
+    }
+
+    .class-select input[type="radio"] {
+        display: none;
+    }
+
+    .search-input {
+        line-height: 1.5rem;
+        font-size: 1.3rem;
+        text-indent: 5px;
+    }
+
+    .search-bar {
+        height: 2rem;
+        margin-bottom: .5rem;
+    }
+
+    #search-results {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .class-select div {
+        font-size: 1.2rem;
+    }
+
+    .left-column {
+        padding: .2rem;
+    }
+
+    .search-input {
+        line-height: 1.3rem;
+        font-size: 1.1rem;
+        text-indent: 1px;
+    }
+
+    .search-bar {
+        height: 1.4rem;
+        margin-bottom: .2rem;
+    }
+
+    h2#search-label {
+        font-size: 18px;
+    }
+
+    #search-results {
+        font-size: 1.05rem;
+    }
 }

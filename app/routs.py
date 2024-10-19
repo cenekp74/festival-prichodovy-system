@@ -105,7 +105,7 @@ def view_class():
         stat = 'včasný' if prichod.dt.time() <= VCASNY_PRICHOD_LIMIT else 'pozdní'
         color = 'green' if stat == 'včasný' else 'yellow'
         prichody[student.id] = {"time":prichod.dt.time().strftime("%H:%M"), "stat": stat, "color":color}
-    return render_template('view/view_class.html', students=students, prichody=prichody, date=date, class_name=class_name)
+    return render_template('view/view_class.html', students=students, prichody=prichody, date=datetime.strptime(date, "%Y-%m-%d").strftime("%d.%m.%Y"), class_name=class_name)
 
 @app.route('/view/student/<student_id>')
 def view_student(student_id):

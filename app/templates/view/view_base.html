@@ -27,7 +27,7 @@
     <div class="content">
         <div class="left-column">
             <form method="get" action="{{ url_for('view_class') }}">
-                <div style="font-size: 2.1rem;">Třída:</div>
+                <div id="trida-text">Třída:</div>
                 <div class="class-select">
                     {% for class_name in classes %}
                     <label for="radio_{{ class_name }}">
@@ -38,12 +38,11 @@
                     </label>
                     {% endfor %}
                 </div><br>
-                <div style="font-size: 2rem;">Datum:</div>
+                <div id="datum-text">Datum:</div>
                 <input type="date" name="date"><br>
                 <button type="submit">Potvrdit</button>
             </form>
-            <br><br>
-            <h2>Vyhledat studenta (min 3 znaky)</h2>
+            <h2 id="search-label">Vyhledat studenta</h2>
             <div class="search-bar">
                 <input type="text" class="search-input" placeholder="Hledat" name="q" hx-get="{{ url_for('view_search') }}" hx-trigger="keyup changed delay:300ms" hx-target="#search-results">
             </div>

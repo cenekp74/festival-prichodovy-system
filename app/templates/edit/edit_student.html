@@ -17,7 +17,7 @@
         {% for student_ in students %}
         <tr>
             <td><a href="{{ url_for('edit_student', student_id=student_.id) }}">{{ student_.id }}</a></td>
-            <td>{{ student_.name }}</td>
+            <td><a href="{{ url_for('edit_student', student_id=student_.id) }}">{{ student_.name }}</a></td>
             <td>{{ student_.code }}</td>
             <td>{{ student_.rfid }}</td>
         </tr>

@@ -27,14 +27,37 @@
 <div class="edit-student">
     <h1>{{ student.name }}</h1>
     <form method="POST" action="">
-        <input name="rfid" value="{{ student.rfid }}"><br><br>
+        <input id="rfid-input" name="rfid" value="{{ student.rfid }}" autofocus><br><br>
         <input type="submit">
     </form>
+    <a id="next-button" href="{{ url_for('edit_student', student_id=student.id+1) }}"><div>></div></a>
 </div>
 
 <script>
-    document.getElementById("{{ class_name }}").classList.add('active')
+    // document.getElementById("{{ class_name }}").classList.add('active')
 </script>
 
+<style>
+    #next-button {
+        text-decoration: none;
+        font-size: 4rem;
+        color: var(--text-color);
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        border: 1px solid var(--text-color);
+        width: 4rem;
+        text-align: center;
+        border-radius: var(--border-radius);
+    }
+    #next-button:hover {
+        background-color: var(--button-hover-color);
+    }
+</style>
+
+<script>
+    document.querySelector("#rfid-input").focus()
+    document.querySelector("#rfid-input").select()
+</script>
 
 {% endblock %}

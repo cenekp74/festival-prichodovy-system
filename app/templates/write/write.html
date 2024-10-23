@@ -11,7 +11,7 @@
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
 </head>
 
-<body>
+<body onclick="restoreFocus(document.getElementById('rfid-input'))">
     <div class="write-wrapper">
         <input id="rfid-input" type="text" class="rfid-input" autocomplete="off" autofocus="" onblur="restoreFocus(this)" placeholder=""
         name="rfid" hx-post="{{ url_for('write') }}" hx-target="#write-result" hx-trigger="keyup[target.value.length > 0] delay:200ms"

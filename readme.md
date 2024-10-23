@@ -17,7 +17,9 @@ Prichodovy system na GEKOM filmovy festival 2024
 - ctecka rfid cipu funguje tak, ze se tvari jako klavesnice a proste zada 10 cislic a pak enter
 ### Sekundarni server
 - je moznost nastavit secondary server (v `__init__.py`), na ktery se bude posilat stejny post request
-- sekundarni server pobezi jako presna kopie tohohle na jinym vps pro pripad, ze by primarni vps prestal fungovat 
+- sekundarni server pobezi jako presna kopie tohohle na jinym vps pro pripad, ze by primarni vps prestal fungovat
+- na sekundarnim serveru by mel byt nastaveny jako sekundarni ten primarni
+- v pripade vypadku 1. serveru se proste prejde na 2., pokud vse funguje jak ma tak tam budou stejny prichody jako byly na 1.
 ## View
 - sekce na zobrazovani prichodu
 - view_class funguje podobne jako edit_class, s tim rozdilem, ze se vybira krome tridy jeste datum a proto je to udelany jako form

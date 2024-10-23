@@ -8,7 +8,7 @@ import json
 from datetime import datetime
 from sqlalchemy import func
 
-CLASSES = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', '1.A', '2.A', '3.A', '4.A', '3.B', '4.B'] # pro rok 23/24
+CLASSES = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', '1.A', '1.B', '2.A', '3.A', '4.A', '4.B'] # pro rok 24/25
 VCASNY_PRICHOD_LIMIT = datetime(2000, 1, 1, 8, 35).time()
 FESTIVAL_DNY = [datetime(2024, 12, 16).date(), datetime(2024, 12, 17).date(), datetime(2024, 12, 18).date()] # vyuzity ve view_student
 
@@ -139,7 +139,7 @@ def prichody_to_json():
     return jsonify(prichody_dict)
 #endregion view
 
-@app.post('/add') # post request na pridani studenta, hlavne pro ucely migrace ze starsi databaze
+@app.post('/add') # post request na pridani studenta, hlavne pro ucely migrace ze starsi databaze nebo pridavani novych studentu na zacatku roku
 def add():
     request_json = json.loads(request.json)
     name = request_json["name"]

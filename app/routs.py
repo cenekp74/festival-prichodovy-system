@@ -65,7 +65,7 @@ def edit_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohli
 @app.route('/write', methods=['GET', 'POST'])
 def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POST zapise prichod a vrati odpoved
     if request.method == 'GET':
-        return render_template('write/write.html')
+        return render_template('write/write.html', secondary_server=app.config["SECONDARY_SERVER"])
     rfid = request.form.get("rfid")
     if not rfid: abort(500) # pokud v POST requestu neni argument rfid, je neplatny
     student = Student.query.filter_by(rfid=rfid).first()

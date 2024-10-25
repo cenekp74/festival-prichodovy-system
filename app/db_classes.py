@@ -1,6 +1,7 @@
 from app import db, login_manager
 from flask_login import UserMixin
 from datetime import datetime
+import pytz
 
 @login_manager.user_loader
 def load_user(user_id):
@@ -19,7 +20,7 @@ class Student(db.Model):
 
 class Prichod(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    dt = db.Column(db.DateTime, default=datetime.now())
+    dt = db.Column(db.DateTime, default=datetime.now(pytz.timezone('Europe/Prague')))
     student_id = db.Column(db.Integer, db.ForeignKey('student.id'))
 
     def to_dict(self):

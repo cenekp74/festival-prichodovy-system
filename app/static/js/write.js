@@ -30,7 +30,7 @@ function onInputChange(ele) { // tuhle funkce vola htmx (viz write.html)
     let inputText = ele.value;
     ele.value = '';
     setTimeout(function() {
-        document.getElementById("write-result").innerHTML = "" // po 5s vycistim write result
+        document.querySelector(`#write-result:has(div[rfid="${inputText}"])`).innerHTML = "" // po 5s vycistim write result pouze pro daneho studenta
     }, 5000)
     if (!window.BACKUP) {return} // pokud client rekl ze nechce ukladat zalohy uz nic nedelam
     let timestamp = new Date().toISOString();

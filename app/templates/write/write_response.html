@@ -1,4 +1,4 @@
-<div class="student-name">
+<div class="student-name" rfid="{{ student.rfid }}"> <!-- rfid je proto, abych mohl po 5s smazat value okynka jenom v pripade, ze se mezitim nenaskenoval dalsi cip (viz fce onInputChange v write.js) -->
     {{ student.name }}
 </div>
 <div class="time {{ stat }}">

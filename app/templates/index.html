@@ -23,8 +23,10 @@
         <h1>PŘÍCHODOVÝ SYSTÉM</h1>
         <nav>
             <a href="{{ url_for('view') }}"><h1 style="font-size: 2rem;">Prohlížení absence</h1></a>
+            {% if current_user.admin %}
             <a href="{{ url_for('write') }}"><h1>Zápis příchodů</h1></a>
             <a href="{{ url_for('edit') }}"><h1>Edit databáze čipů</h1></a>
+            {% endif %}
         </nav>
     </div>
 </body>

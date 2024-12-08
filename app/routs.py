@@ -70,7 +70,7 @@ def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POS
     if not rfid: abort(500) # pokud v POST requestu neni argument rfid, je neplatny
     student = Student.query.filter_by(rfid=rfid).first()
     if not student:
-        return f'<div rfid={rfid}></div> STUDENT NENALEZEN' # div s rfid pridavam proto, abych mohl z js smazat po nejaky dobe ten text jenom pokud od ty doby nebyl naskenovanej dalsi cip (viz fce onInputChange v write.js)
+        return f'<div rfid={rfid}></div> STUDENT NENALEZEN - {rfid}' # div s rfid pridavam proto, abych mohl z js smazat po nejaky dobe ten text jenom pokud od ty doby nebyl naskenovanej dalsi cip (viz fce onInputChange v write.js)
     if Prichod.query.filter_by(student_id=student.id).filter(func.date(Prichod.dt) == datetime.today().date()).first(): # func.date vytahle z datetime objektu date
         return f'{student.name} <div rfid={student.rfid}></div> <br> DUPLICITNÍ PŘÍCHOD - IGNORUJI'
     prichod = Prichod(student_id=student.id)

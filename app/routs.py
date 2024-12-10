@@ -67,17 +67,10 @@ def edit_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohli
     return render_template('edit/search_results.html', results=results)
 #endregion edit
 
-def build_cors_preflight_response():
-    response = make_response()
-    response.headers.add("Access-Control-Allow-Origin", "*")
-    return response
-
-@app.route('/write', methods=['GET', 'POST', 'OPTIONS'])
+@app.route('/write', methods=['GET', 'POST'])
 def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POST zapise prichod a vrati odpoved
     if request.method == 'GET':
         return render_template('write/write.html', secondary_server=app.config["SECONDARY_SERVER"])
-    if request.method == 'OPTIONS':
-        return build_cors_preflight_response() # tohle tu musi byt proto, ze kdyz z primarniho serveru posila client request na sekundarni, nedovoli to browser pokud neni nastaveny header access-control-allow-origin
     rfid = request.form.get("rfid")
     if not rfid: abort(500) # pokud v POST requestu neni argument rfid, je neplatny
     student = Student.query.filter_by(rfid=rfid).first()
@@ -91,9 +84,7 @@ def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POS
     stat = 'ok' # podle tohohle bude mit cas prichodu barvicku
     time = datetime.now().time()
     if time > VCASNY_PRICHOD_LIMIT: stat = 'late'
-    response = make_response(render_template('write/write_response.html', student=student, time=time.strftime("%H:%M"), stat=stat))
-    response.headers.add("Access-Control-Allow-Origin", "*") # tohle tu musi byt proto, ze kdyz z primarniho serveru posila client request na sekundarni, nedovoli to browser pokud neni nastaveny header access-control-allow-origin
-    return response
+    return render_template('write/write_response.html', student=student, time=time.strftime("%H:%M"), stat=stat)
 
 #region view
 @app.route('/view')

@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = 'dev'
 app.config.from_pyfile('../instance/config.py')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
-app.config['SECONDARY_SERVER'] = "https://ps2.jsnsgekom.cz"
+app.config['SECONDARY_SERVER'] = "https://ps2.jsnsgekom.cz/"
 
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)

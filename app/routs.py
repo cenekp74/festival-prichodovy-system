@@ -24,6 +24,8 @@ def require_login(): # POZOR - dela problemy pokud je v url double slash (coz se
         return Response()
     if not request.endpoint:
         return
+    if request.url == "https://ps2.jsnsgekom.cz/write" and request.origin == "https://ps.jsnsgekom.cz": # pokud se jedna o zapis z primarniho serveru na sekundarni tak nevyzaduju auth
+        return
     if not current_user.is_authenticated and request.endpoint not in ['login', 'static']:
         return redirect(url_for('login'))
     if request.endpoint.startswith("edit") or request.endpoint == "write":

@@ -7,6 +7,7 @@ from app.utils import class_name_from_code, search, get_students_by_class_name
 import json
 from datetime import datetime
 from sqlalchemy import func
+import pytz
 
 CLASSES = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', '1.A', '1.B', '2.A', '3.A', '4.A', '4.B'] # pro rok 24/25
 VCASNY_PRICHOD_LIMIT = datetime(2000, 1, 1, 8, 35).time()
@@ -86,7 +87,7 @@ def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POS
     db.session.add(prichod)
     db.session.commit()
     stat = 'ok' # podle tohohle bude mit cas prichodu barvicku
-    time = datetime.now().time()
+    time = datetime.now(pytz.timezone('Europe/Prague')).time()
     if time > VCASNY_PRICHOD_LIMIT: stat = 'late'
     return render_template('write/write_response.html', student=student, time=time.strftime("%H:%M"), stat=stat)
 

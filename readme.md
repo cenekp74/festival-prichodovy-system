@@ -31,6 +31,11 @@ Prichodovy system na GEKOM filmovy festival 2024
 - pocet prichodu, po kterych se ma ukladat zaloha je definovany v write.js
 - POZOR - pokud se zaloha uklada napr. po kazdych 5 cipnutich, cipnu 4krat a pak reloadnu, ZALOHA SE NEVYTVORI a data se neulozi do localu => napr. na konci cipovani se nejspis neulozi
 ### na serveru
-- fce view_json vrati vsechny prichody v json formatu. takhle se da bud rucne nebo automaticky stahovat databaze a nekam zalohovat (muze napr. na pocitaci v IVT bezet script a kazdych par minut stahnout zalohu)
+- fce view_json vrati vsechny prichody v json formatu. takhle se da bud rucne nebo automaticky stahovat databaze a nekam zalohovat (muze napr. na pocitaci v IVT bezet script a 
+### secondary server
+- zaroven bezi 2 servery, write requesty se posilaji na oba
+- je s tim hrozne srani s cross-origin pravidlama, vede to ke spouste odpornosti v kodu (napr. to, ze je nekolikrat na pevno dana adresa url obou serveru...)
+kazdych par minut stahnout zalohu)
 ## Login
 - standartni flask login pres wtforms, zkopirovany ze staryho projektu
+- v before request je (docela hnusne) definovany, kdy je potreba login a kdy ne - chtelo by to predelat

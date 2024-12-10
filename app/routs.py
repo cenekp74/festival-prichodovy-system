@@ -1,5 +1,5 @@
 from app import app, db, bcrypt
-from flask import render_template, url_for, send_from_directory, request, redirect, flash, make_response, abort, jsonify
+from flask import render_template, url_for, send_from_directory, request, redirect, flash, make_response, abort, jsonify, Response
 from flask_login import login_required, login_user, logout_user, current_user
 from app.db_classes import User, Student, Prichod
 from app.forms import LoginForm
@@ -20,6 +20,8 @@ def inject_classes():
 # require login on all endpoints except login and static
 @app.before_request
 def require_login(): # POZOR - dela problemy pokud je v url double slash (coz se stava treba kdyz odkazuju na static a dam / na zacatku navic - napr. {{ url_for('static', filename='/css/main.css') }})
+    if request.method.lower() == "options":
+        return Response()
     if not request.endpoint:
         return
     if not current_user.is_authenticated and request.endpoint not in ['login', 'static']:

@@ -36,6 +36,7 @@ Prichodovy system na GEKOM filmovy festival 2024
 - zaroven bezi 2 servery, write requesty se posilaji na oba
 - je s tim hrozne srani s cross-origin pravidlama, vede to ke spouste odpornosti v kodu (napr. to, ze je nekolikrat na pevno dana adresa url obou serveru...)
 kazdych par minut stahnout zalohu)
+- v before request jsem musel nastavit, ze nevyzaduju auth u write requestu z primarniho serveru na sekundarni. to... neni bezpecny no, slo by to exploitnout asi tak za 5 minut. tudiz data ze sekundarniho serveru jsou fakt jenom zaloha, vic by se melo verit tem z primarniho
 ## Login
 - standartni flask login pres wtforms, zkopirovany ze staryho projektu
 - v before request je (docela hnusne) definovany, kdy je potreba login a kdy ne - chtelo by to predelat

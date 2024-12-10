@@ -16,7 +16,7 @@
         <input id="rfid-input" type="text" class="rfid-input" autocomplete="off" autofocus="" onblur="restoreFocus(this)" placeholder=""
         name="rfid" hx-post="{{ url_for('write') }}" hx-target="#write-result" hx-trigger="keyup[target.value.length > 0] delay:200ms"
         hx-on::after-request="onInputChange(this)">
-        <div hx-trigger="keyup[target.value.length > 0] from:#rfid-input delay:200ms" hx-post="{{ secondary_server }}{{ url_for('write') }}/"></div>
+        <div hx-trigger="keyup[target.value.length > 0] from:#rfid-input delay:200ms" hx-post="{{ secondary_server }}{{ url_for('write') }}"></div>
         <div id="write-result"></div>
     </div>
 </body>

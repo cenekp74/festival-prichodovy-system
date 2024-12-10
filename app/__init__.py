@@ -16,6 +16,6 @@ db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 migrate = Migrate(app, db)
 login_manager = LoginManager(app)
-cors = CORS(app)
+cors = CORS(app, resources={"/write": {"origins":"https://ps.jsnsgekom.cz"}})
 
 from app import routs

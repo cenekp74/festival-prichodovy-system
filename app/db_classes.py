@@ -21,7 +21,7 @@ class Student(db.Model):
 
 class Prichod(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    dt = db.Column(db.DateTime, default=datetime.now(pytz.timezone('Europe/Prague')))
+    dt = db.Column(db.DateTime, nullable=False)
     student_id = db.Column(db.Integer, db.ForeignKey('student.id'))
 
     def to_dict(self):

@@ -83,11 +83,12 @@ def write(): # fce na zapisovani prichodu - na GET proste vrati template, na POS
         return f'<div rfid={rfid}></div> STUDENT NENALEZEN - {rfid}' # div s rfid pridavam proto, abych mohl z js smazat po nejaky dobe ten text jenom pokud od ty doby nebyl naskenovanej dalsi cip (viz fce onInputChange v write.js)
     if Prichod.query.filter_by(student_id=student.id).filter(func.date(Prichod.dt) == datetime.today().date()).first(): # func.date vytahle z datetime objektu date
         return f'{student.name} <div rfid={student.rfid}></div> <br> DUPLICITNÍ PŘÍCHOD - IGNORUJI'
-    prichod = Prichod(student_id=student.id)
+    dt = datetime.now(pytz.timezone('Europe/Prague'))
+    prichod = Prichod(student_id=student.id, dt=dt)
     db.session.add(prichod)
     db.session.commit()
     stat = 'ok' # podle tohohle bude mit cas prichodu barvicku
-    time = datetime.now(pytz.timezone('Europe/Prague')).time()
+    time = dt.time()
     if time > VCASNY_PRICHOD_LIMIT: stat = 'late'
     return render_template('write/write_response.html', student=student, time=time.strftime("%H:%M"), stat=stat)
 

@@ -10,7 +10,7 @@ from sqlalchemy import func
 import pytz
 
 CLASSES = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', '1.A', '1.B', '2.A', '3.A', '4.A', '4.B'] # pro rok 24/25
-VCASNY_PRICHOD_LIMIT = datetime(2000, 1, 1, 8, 35).time()
+VCASNY_PRICHOD_LIMIT = datetime(2000, 1, 1, 8, 36).time()
 FESTIVAL_DNY = [datetime(2024, 12, 16).date(), datetime(2024, 12, 17).date(), datetime(2024, 12, 18).date()] # vyuzity ve view_student
 
 # aby byla variable classes ve vsech templatech a nemusel jsem ji vzdycky jako blbecek pridavat

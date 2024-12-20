@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to-fit="no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <style>
+        :root {
+            --text-color: white;
+            --button-hover-color: #616161;
+            --border-radius: 5px;
+            --bg-color: #202020;
+            --link-color: #d7cafc;
+            --link-hover-color: #babaff;
+            --alert-color: #38314b;
+        }
+
+        .alert {
+            background-color: var(--alert-color);
+            border-radius: var(--border-radius);
+            line-height: 3rem;
+            font-size: 1.3rem;
+            width: 60%;
+            text-align: center;
+            margin: .3rem;
+            font-style: italic;
+            text-indent: 3px;
+            position: absolute;
+            top: .3rem;
+            right: 2rem;
+        }
+
+        .alert i {
+            float: right;
+            line-height: 3rem;
+            margin-right: 10px;
+            cursor: pointer;
+            padding-right: 2px;
+            padding-left: 3px;
+        }
+
+        a {
+            color: var(--link-color);
+        }
+
+        a:hover {
+            color: var(--link-hover-color);
+        }
+
+        body {
+            margin: 0;
+            color: var(--text-color);
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--bg-color);
+        }
+
+        .content {
+            padding: 1.5rem;
+        }
+
+        .statistics {
+            padding: .5rem;
+            font-size: 1.4rem;
+        }
+    </style>
+</head>
+
+<body>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ category }}">
+            {{ message }} <i onclick="setParentDisplayNone(this)" class="fa fa-xmark"></i>
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+    <div class="content">
+        <h1>Statistika docházky na filmovém festivalu</h1>
+        <small>pozn.: festivalové dny jsou: {{ festival_days }}</small>
+        <div class="statistics">
+            <div>
+                <div style="font-weight: bold;font-size: 1.7rem;padding: .5rem 0;">Počet přítomných studentů</div>
+                {% for dayn, n in n_of_people_by_day.items() %}
+                <div>{{ dayn }}. den: <b>{{ n }}/{{ n_of_students }}</b></div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

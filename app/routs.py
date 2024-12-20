@@ -148,6 +148,15 @@ def view_search(): # funkce na vyhledavani jsou ruzny pro editovani a pro prohli
 def prichody_to_json():
     prichody_dict = [prichod.to_dict() for prichod in Prichod.query.all()]
     return jsonify(prichody_dict)
+
+@app.route('/view/statistics')
+def statistics():
+    n_of_people_by_day = {} # pocet pritomnych lidi v kazdem dni
+    for index, date in enumerate(FESTIVAL_DNY):
+        prichody = Prichod.query.filter(func.date(Prichod.dt) == date).all()
+        n_of_people_by_day[index+1] = len(prichody)
+    n_of_students = len(Student.query.all())
+    return render_template("view/statistics.html", n_of_people_by_day=n_of_people_by_day, n_of_students=n_of_students, festival_days=", ".join([d.strftime("%Y.%m.%d") for d in FESTIVAL_DNY]))
 #endregion view
 
 @app.post('/add') # post request na pridani studenta, hlavne pro ucely migrace ze starsi databaze nebo pridavani novych studentu na zacatku roku

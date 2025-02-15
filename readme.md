@@ -1,3 +1,7 @@
+Attendance system for JSNO Film festival. The rest of this document is in czech. 
+
+---
+
 Prichodovy system na GEKOM filmovy festival 2024
 
 # Poznamky

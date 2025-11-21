@@ -11,7 +11,7 @@ import pytz
 
 CLASSES = ["II", "IV", "V", "VII", "2.A", "2.B", "3.A", "4.A", "VI", "III", "VIII", "1.A", "1.B", "I"] # pro rok 25/26
 VCASNY_PRICHOD_LIMIT = datetime(2000, 1, 1, 8, 25).time()
-FESTIVAL_DNY = [datetime(2024, 12, 16).date(), datetime(2024, 12, 17).date(), datetime(2024, 12, 18).date()] # vyuzity ve view_student
+FESTIVAL_DNY = [datetime(2025, 12, 15).date(), datetime(2025, 12, 16).date(), datetime(2025, 12, 17).date()] # vyuzity ve view_student
 
 # aby byla variable classes ve vsech templatech a nemusel jsem ji vzdycky jako blbecek pridavat
 @app.context_processor

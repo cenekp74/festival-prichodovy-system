@@ -60,7 +60,7 @@ body {
 .left-column {
     background-color: var(--left-column-bg);
     padding: 2rem;
-    overflow-y: scroll;
+    overflow-y: auto;
     min-width: 95px;
     overflow-x: hidden;
 }
@@ -75,8 +75,8 @@ body {
 
 .right-column {
     background-color: var(--right-column-bg);
-    overflow-y: scroll;
-    overflow-x: scroll;
+    overflow-y: auto;
+    overflow-x: auto;
     padding: 2rem;
     padding-top: 0;
 }

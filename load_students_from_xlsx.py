@@ -8,9 +8,9 @@ SERVER_URL = 'http://127.0.0.1:7000/add'
 students = []
 wb = openpyxl.open("SEZNAM.xlsx")
 for sheet in wb.worksheets:
-    for row in sheet.iter_rows(min_row=3, values_only=True):
-        _, name, code = row
-        students.append({"jmeno":name, "kod":code})
+    for row in sheet.iter_rows(min_row=2, values_only=True):
+        _, first_name, surname, code = row
+        students.append({"jmeno":f"{first_name} {surname}", "kod":int(code.replace(",", ""))})
 
 for student in students:
     name = student["jmeno"]

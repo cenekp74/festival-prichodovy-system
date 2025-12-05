@@ -28,6 +28,7 @@
             <a href="{{ url_for('edit') }}"><h1>Edit databáze čipů</h1></a>
             {% endif %}
         </nav>
+        <p>uživatel: <b>{{ 'Učitel' if current_user.username == 'ucitel' else current_user.username}}</b> - <small><a href="{{ url_for('logout') }}">odhlásit</a></small></p>
     </div>
 </body>
 </html>

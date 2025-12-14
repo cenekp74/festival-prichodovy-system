@@ -20,7 +20,14 @@
         }
     </style>
     <div class="content">
-        <h1>PŘÍCHODOVÝ SYSTÉM</h1>
+        <div style="display: flex;align-items: center;flex-direction: column;">
+            <h1>PŘÍCHODOVÝ SYSTÉM</h1>
+            <div style="max-width: min(100%, 400px);padding: 8px;">
+                Docházku pro daný den prosím zapisujte nejdříve <b>po 16:00</b> - do té doby nemusí být kompletní.<br><br>
+                Do systému přistupujte nejlépe z počítače, na telefon není dělaný. <br><br>
+                Vyhledávání studentů je citlivé na diakritiku.
+            </div>
+        </div>
         <nav>
             <a href="{{ url_for('view') }}"><h1 style="font-size: 2rem;">Prohlížení absence</h1></a>
             {% if current_user.admin %}
@@ -31,4 +38,7 @@
         <p>uživatel: <b>{{ 'Učitel' if current_user.username == 'ucitel' else current_user.username}}</b> - <small><a href="{{ url_for('logout') }}">odhlásit</a></small></p>
     </div>
 </body>
+<footer style="position: absolute;bottom: 4px;left: 4px;">
+    <small>Čeněk Potužník, <a href="mailto:email@potuznik.dev">email@potuznik.dev</a>, <a href="https://github.com/cenekp74">github</a></small>
+</footer>
 </html>
